@@ -1,4 +1,5 @@
-﻿using LegendsViewer.Backend.Legends.Bookmarks;
+using LegendsViewer.Backend.Extensions;
+using LegendsViewer.Backend.Legends.Bookmarks;
 using LegendsViewer.Backend.Legends.Interfaces;
 using LegendsViewer.Backend.Legends.Maps;
 using Microsoft.AspNetCore.Mvc;
@@ -11,17 +12,19 @@ public class BookmarkController(
     ILogger<BookmarkController> logger,
     IWorld worldDataService,
     IWorldMapImageGenerator worldMapImageGenerator,
-    IBookmarkService bookmarkService) : ControllerBase
+    IBookmarkService bookmarkService,
+    IConfiguration configuration) : ControllerBase
 {
     public const string FileIdentifierLegendsXml = "-legends.xml";
 
-    private const string FileIdentifierWorldHistoryTxt = "-world_history.txt";
-    private const string FileIdentifierWorldMapBmp = "-world_map.bmp";
-    private const string FileIdentifierWorldSitesAndPops = "-world_sites_and_pops.txt";
-    private const string FileIdentifierLegendsPlusXml = "-legends_plus.xml";
+    public const string FileIdentifierWorldHistoryTxt = "-world_history.txt";
+    public const string FileIdentifierWorldMapBmp = "-world_map.bmp";
+    public const string FileIdentifierWorldSitesAndPops = "-world_sites_and_pops.txt";
+    public const string FileIdentifierLegendsPlusXml = "-legends_plus.xml";
     private readonly IWorld _worldDataService = worldDataService;
     private readonly IWorldMapImageGenerator _worldMapImageGenerator = worldMapImageGenerator;
     private readonly IBookmarkService _bookmarkService = bookmarkService;
+    private readonly string _dataDirectory = configuration["DataDirectory"] ?? "/app/data";
 
     [HttpGet]
     [ProducesResponseType<List<Bookmark>>(StatusCodes.Status200OK)]
@@ -47,37 +50,62 @@ public class BookmarkController(
     [HttpDelete("{filePath}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public ActionResult<Bookmark> Delete([FromRoute] string filePath)
+    public ActionResult Delete([FromRoute] string filePath)
     {
-        if (!_bookmarkService.DeleteBookmarkTimestamp(filePath))
+        // Check admin authorization
+        if (!HttpContext.IsAdmin(configuration))
         {
-            return NotFound();
+            return Unauthorized("Admin access required to delete bookmarks.");
         }
-        var item = _bookmarkService.GetBookmark(filePath);
-        if (item == null)
+
+        // Delete the entire bookmark entry (not just a timestamp)
+        if (!_bookmarkService.DeleteBookmark(filePath))
         {
-            return NoContent();
+            return NotFound($"Bookmark not found for file path: {filePath}");
         }
-        return Ok(item);
+
+        return NoContent();
     }
 
-    [HttpPost("loadByFullPath")]
+    [HttpGet("isAdmin")]
+    [ProducesResponseType<bool>(StatusCodes.Status200OK)]
+    public ActionResult<bool> IsAdmin()
+    {
+        return Ok(HttpContext.IsAdmin(configuration));
+    }
+
+    [HttpPost("loadByFileName")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<ActionResult<Bookmark>> ParseWorldXml([FromBody] string filePath)
+    public async Task<ActionResult<Bookmark>> ParseWorldXml([FromBody] string fileName)
     {
-        if (string.IsNullOrWhiteSpace(filePath) || !System.IO.File.Exists(filePath))
+        // Check admin authorization
+        if (!HttpContext.IsAdmin(configuration))
         {
-            return BadRequest($"Invalid file path.\n{filePath}");
+            return Unauthorized("Admin access required to load worlds.");
         }
+
+        // Validate filename to prevent path traversal
+        if (string.IsNullOrWhiteSpace(fileName) ||
+            fileName.Contains("..") ||
+            fileName.Contains("/") ||
+            fileName.Contains("\\"))
+        {
+            return BadRequest("Invalid file name.");
+        }
+
+        var filePath = Path.Combine(_dataDirectory, fileName);
+
+        if (!System.IO.File.Exists(filePath))
+        {
+            return BadRequest($"File not found: {fileName}");
+        }
+
         FileInfo fileInfo = new(filePath);
-        if (string.IsNullOrWhiteSpace(fileInfo.DirectoryName))
-        {
-            return BadRequest("Invalid directory.");
-        }
-        string directoryName = fileInfo.DirectoryName;
         string regionId;
         if (fileInfo.Name.Contains(FileIdentifierLegendsXml))
         {
@@ -94,22 +122,22 @@ public class BookmarkController(
 
         var (RegionName, Timestamp) = BookmarkService.GetRegionNameAndTimestampByRegionId(regionId, _worldDataService);
 
-        var xmlFileName = Directory.EnumerateFiles(directoryName, regionId + FileIdentifierLegendsXml).FirstOrDefault();
+        var xmlFileName = Directory.EnumerateFiles(_dataDirectory, regionId + FileIdentifierLegendsXml).FirstOrDefault();
         if (string.IsNullOrWhiteSpace(xmlFileName))
         {
             return BadRequest("Invalid XML file");
         }
-        var xmlPlusFileName = Directory.EnumerateFiles(directoryName, regionId + FileIdentifierLegendsPlusXml).FirstOrDefault();
-        var historyFileName = Directory.EnumerateFiles(directoryName, regionId + FileIdentifierWorldHistoryTxt).FirstOrDefault();
-        var sitesAndPopsFileName = Directory.EnumerateFiles(directoryName, regionId + FileIdentifierWorldSitesAndPops).FirstOrDefault();
-        var mapFileName = Directory.EnumerateFiles(directoryName, regionId + FileIdentifierWorldMapBmp).FirstOrDefault();
+        var xmlPlusFileName = Directory.EnumerateFiles(_dataDirectory, regionId + FileIdentifierLegendsPlusXml).FirstOrDefault();
+        var historyFileName = Directory.EnumerateFiles(_dataDirectory, regionId + FileIdentifierWorldHistoryTxt).FirstOrDefault();
+        var sitesAndPopsFileName = Directory.EnumerateFiles(_dataDirectory, regionId + FileIdentifierWorldSitesAndPops).FirstOrDefault();
+        var mapFileName = Directory.EnumerateFiles(_dataDirectory, regionId + FileIdentifierWorldMapBmp).FirstOrDefault();
 
         try
         {
             _worldDataService.Clear();
             _worldMapImageGenerator.Clear();
 
-            logger.LogInformation($"Start loading world '{regionId}' from '{directoryName}'");
+            logger.LogInformation($"Start loading world '{regionId}' from '{_dataDirectory}'");
 
             await _worldMapImageGenerator.LoadExportedWorldMapAsync(mapFileName);
             await _worldDataService.ParseAsync(xmlFileName, xmlPlusFileName, historyFileName, sitesAndPopsFileName, mapFileName);
@@ -126,18 +154,30 @@ public class BookmarkController(
         }
     }
 
+    // Keep old endpoints for backward compatibility, but redirect to new method
+    [HttpPost("loadByFullPath")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<ActionResult<Bookmark>> ParseWorldXmlByFullPath([FromBody] string filePath)
+    {
+        // Extract filename from path and use new method
+        var fileName = Path.GetFileName(filePath);
+        if (string.IsNullOrWhiteSpace(fileName))
+        {
+            return BadRequest("Invalid file path.");
+        }
+        return await ParseWorldXml(fileName);
+    }
+
     [HttpPost("loadByFolderAndFile")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<ActionResult<Bookmark>> ParseWorldXml([FromBody] string folderPath, string fileName)
+    public async Task<ActionResult<Bookmark>> ParseWorldXmlByFolderAndFile([FromBody] string folderPath, string fileName)
     {
-        var fullPath = Path.Combine(folderPath, fileName);
-        if (!Path.Exists(fullPath))
-        {
-            return BadRequest("File does not exist!");
-        }
-        return await ParseWorldXml(fullPath);
+        // Ignore folderPath, only use fileName from data directory
+        return await ParseWorldXml(fileName);
     }
 
     private Bookmark AddBookmark(string filePath, string regionName, string timestamp)

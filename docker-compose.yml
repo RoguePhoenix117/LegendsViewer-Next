@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  legendsviewer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env.development  # Load environment variables from .env.development
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://0.0.0.0:8080
+      # AdminApiKey will be loaded from .env.development if present
+      # For production on Fly.io, use: fly secrets set AdminApiKey=your-key
+    # Mount data directory for world export files
+    # Place your XML files in ./data/ directory on the host
+    # Example: ./data/legends.xml
+    # Example: ./data/legends_plus.xml
+    volumes:
+      - ./data:/app/data

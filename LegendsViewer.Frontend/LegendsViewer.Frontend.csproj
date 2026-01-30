@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
@@ -18,16 +18,18 @@
 
 	<PropertyGroup>
 		<NpmInstallStampFile>$(SpaRoot)node_modules/.install-stamp</NpmInstallStampFile>
+		<!-- Set to false to skip npm build steps (e.g., when building in Docker) -->
+		<BuildFrontend Condition="'$(BuildFrontend)' == ''">true</BuildFrontend>
 	</PropertyGroup>
 
-	<!-- Always run npm install -->
-	<Target Name="OnPackageChange" BeforeTargets="BeforeBuild">
+	<!-- Run npm install only if BuildFrontend is true -->
+	<Target Name="OnPackageChange" BeforeTargets="BeforeBuild" Condition="'$(BuildFrontend)' == 'true'">
 		<Message Importance="high" Text="Installing npm packages..." />
 		<Exec Command="npm install" WorkingDirectory="$(SpaRoot)" />
 	</Target>
 
-	<!-- Always run npm run build -->
-	<Target Name="OnSourceChange" BeforeTargets="BeforeBuild">
+	<!-- Run npm run build only if BuildFrontend is true -->
+	<Target Name="OnSourceChange" BeforeTargets="BeforeBuild" Condition="'$(BuildFrontend)' == 'true'">
 		<Message Importance="high" Text="Compiling WebApp..." />
 		<Exec Command="npm run build" WorkingDirectory="$(SpaRoot)" />
 	</Target>

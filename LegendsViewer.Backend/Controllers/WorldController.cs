@@ -1,4 +1,4 @@
-﻿using LegendsViewer.Backend.Contracts;
+using LegendsViewer.Backend.Contracts;
 using LegendsViewer.Backend.Extensions;
 using LegendsViewer.Backend.Legends;
 using LegendsViewer.Backend.Legends.Interfaces;
@@ -17,6 +17,7 @@ public class WorldController(IWorld worldDataService, IWorldMapImageGenerator wo
 
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
+    [ResponseCache(Duration = 300)] // Cache for 5 minutes (world data changes when new file is loaded)
     public ActionResult<WorldDto> Get()
     {
         return Ok(new WorldDto(_worldDataService, _worldMapImageGenerator));

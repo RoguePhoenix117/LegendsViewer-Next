@@ -5,6 +5,13 @@
 
 # dotenv files
 .env
+.env.development
+.env.production
+.env.local
+
+# Data directory (world export files)
+data/
+!data/.gitkeep
 
 # User-specific files
 *.rsuser

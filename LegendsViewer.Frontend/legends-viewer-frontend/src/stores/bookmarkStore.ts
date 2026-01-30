@@ -1,4 +1,4 @@
-import { defineStore } from 'pinia'
+import { defineStore } from 'pinia';
 import client from "../apiClient"; // Import the global client
 import { components } from '../generated/api-schema'; // Import from the OpenAPI schema
 
@@ -9,7 +9,8 @@ export const useBookmarkStore = defineStore('bookmark', {
     bookmarks: [] as Bookmark[],
     bookmarkError: '' as string,
     bookmarkWarning: '' as string,
-    isLoadingNewWorld: false as boolean
+    isLoadingNewWorld: false as boolean,
+    isAdmin: false as boolean
   }),
   getters: {
     isLoadingExistingWorld: (state) => {
@@ -24,6 +25,11 @@ export const useBookmarkStore = defineStore('bookmark', {
   },
   actions: {
     async loadByFullPath(filePath: string, latestTimestamp: string) {
+      // Extract filename from path for new endpoint
+      // Handle both full paths and paths with {TIMESTAMP} placeholder
+      const resolvedPath = filePath.replace("{TIMESTAMP}", latestTimestamp);
+      const fileName = resolvedPath.split(/[/\\]/).pop() || resolvedPath;
+      
       // Set the state of the bookmark to 'Loading' if it exists
       let existingBookmark = this.bookmarks.find(bookmark => bookmark.filePath === filePath);
       if (existingBookmark) {
@@ -33,8 +39,10 @@ export const useBookmarkStore = defineStore('bookmark', {
         this.isLoadingNewWorld = true;
       }
 
-      const { data, error } = await client.POST("/api/Bookmark/loadByFullPath", {
-        body: filePath.replace("{TIMESTAMP}", latestTimestamp), // Send the filePath as raw text
+      // Use new endpoint with filename only
+      // @ts-ignore - API schema will be regenerated after backend changes
+      const { data, error } = await client.POST("/api/Bookmark/loadByFileName" as any, {
+        body: fileName
       });
 
       if (error !== undefined) {
@@ -106,39 +114,24 @@ export const useBookmarkStore = defineStore('bookmark', {
         this.isLoadingNewWorld = false;
       }
     },
-    async loadByFolderAndFile(folderPath: string, fileName: string) {
+    async loadByFileName(fileName: string) {
+      // Set loading state
+      this.isLoadingNewWorld = true;
 
-      let fileNameWithoutTimestamp: string = '';
-      let timestamp: string = '';
-      const firstHyphenIndex: number = fileName.indexOf('-');
-
-      if (firstHyphenIndex !== -1) {
-        timestamp = fileName.substring(firstHyphenIndex + 1); // Extract timestamp part
-        fileNameWithoutTimestamp = fileName.replace(timestamp, "{TIMESTAMP}")
-      }
-
-      // Set the state of the bookmark to 'Loading' if it exists
-      let existingBookmark = this.bookmarks.find(bookmark => bookmark.filePath?.startsWith(folderPath) && bookmark.filePath?.endsWith(fileNameWithoutTimestamp));
-      if (existingBookmark) {
-        existingBookmark.state = 'Loading';
-      }
-      else {
-        this.isLoadingNewWorld = true;
-      }
-
-      const { data, error } = await client.POST("/api/Bookmark/loadByFolderAndFile", {
-        body: folderPath, // Send the filePath as raw text
-        params: {
-          query: {
-            fileName: fileName
-          }
-        }
+      // @ts-ignore - API schema will be regenerated after backend changes
+      const { data, error } = await client.POST("/api/Bookmark/loadByFileName" as any, {
+        body: fileName
       });
 
       if (error !== undefined) {
         console.error(error);
+        this.isLoadingNewWorld = false;
+        this.bookmarkError = error.title ?? error.type ?? '';
       } else if (data) {
         const newBookmark = data as Bookmark;
+        if (newBookmark.worldName == null || newBookmark.worldName.length == 0) {
+          this.bookmarkWarning = 'The legends_plus.xml file was not found. Dwarf Fortress currently exports only a limited amount of legends data. To access more detailed information, including proper maps and other important features, please install DFHack, which will automatically export the additional data.'
+        }
 
         // Check if the bookmark already exists
         const index = this.bookmarks.findIndex(bookmark => bookmark.filePath === newBookmark.filePath);
@@ -155,12 +148,26 @@ export const useBookmarkStore = defineStore('bookmark', {
         this.isLoadingNewWorld = false;
       }
     },
+    async loadByFolderAndFile(_folderPath: string, fileName: string) {
+      // Redirect to new method - ignore folderPath, only use fileName
+      await this.loadByFileName(fileName);
+    },
     async getAll() {
       const { data, error } = await client.GET("/api/Bookmark");
       if (error !== undefined) {
         console.error(error)
       } else {
         this.bookmarks = data as Bookmark[]
+      }
+    },
+    async checkAdminStatus() {
+      // @ts-ignore - API schema will be regenerated after backend changes
+      const { data, error } = await client.GET("/api/Bookmark/isAdmin" as any);
+      if (error !== undefined) {
+        console.error(error);
+        this.isAdmin = false;
+      } else {
+        this.isAdmin = data === true;
       }
     },
   },
