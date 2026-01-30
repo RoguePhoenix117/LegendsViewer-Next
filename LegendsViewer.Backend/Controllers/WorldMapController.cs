@@ -1,4 +1,4 @@
-﻿using LegendsViewer.Backend.Legends;
+using LegendsViewer.Backend.Legends;
 using LegendsViewer.Backend.Legends.Interfaces;
 using LegendsViewer.Backend.Legends.Maps;
 using LegendsViewer.Backend.Legends.WorldObjects;
@@ -14,6 +14,7 @@ public class WorldMapController(IWorld worldDataService, IWorldMapImageGenerator
     private readonly IWorldMapImageGenerator _worldMapImageGenerator = worldMapImageGenerator;
 
     [HttpGet("world/{size}")]
+    [ResponseCache(Duration = 3600, VaryByQueryKeys = new[] { "size" })] // Cache for 1 hour
     public ActionResult<byte[]?> GetWorldMap(MapSize size = MapSize.Default)
     {
         var imageData = _worldMapImageGenerator.GenerateMapByteArray(GetTileSizeByEnum(size));
@@ -25,6 +26,7 @@ public class WorldMapController(IWorld worldDataService, IWorldMapImageGenerator
     }
 
     [HttpGet("underworld/{size}/{depth}")]
+    [ResponseCache(Duration = 3600, VaryByQueryKeys = new[] { "size", "depth" })] // Cache for 1 hour
     public ActionResult<byte[]?> GetUnderworldMap([FromRoute] MapSize size = MapSize.Default, [FromRoute] int? depth = null)
     {
         var imageData = _worldMapImageGenerator.GenerateMapByteArray(GetTileSizeByEnum(size), depth);

@@ -1,0 +1,19 @@
+**/.git
+**/.vs
+**/bin
+**/obj
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+!LegendsViewer.Frontend/legends-viewer-frontend/.env.production
+**/publish
+**/*.user
+**/*.suo
+**/TestResults
+**/.idea
+**/.vscode
+*.md
+!README.md
+# Local data (world exports, bookmarks) - don't bake into image; use volume at runtime
+/data

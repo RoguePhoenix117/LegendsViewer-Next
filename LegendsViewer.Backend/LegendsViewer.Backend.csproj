@@ -21,4 +21,11 @@
 		<ProjectReference Include="..\LegendsViewer.Frontend\LegendsViewer.Frontend.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<Content Include="..\LegendsViewer.Frontend\legends-viewer-frontend\dist\**">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>legends-viewer-frontend\dist\%(RecursiveDir)%(Filename)%(Extension)</Link>
+		</Content>
+	</ItemGroup>
+
 </Project>

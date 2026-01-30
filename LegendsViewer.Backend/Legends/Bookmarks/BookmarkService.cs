@@ -1,7 +1,8 @@
-﻿namespace LegendsViewer.Backend.Legends.Bookmarks;
+namespace LegendsViewer.Backend.Legends.Bookmarks;
 
 using LegendsViewer.Backend.Controllers;
 using LegendsViewer.Backend.Legends.Interfaces;
+using Microsoft.Extensions.Configuration;
 using System.IO;
 using System.Text.Json;
 
@@ -14,14 +15,13 @@ public class BookmarkService : IBookmarkService
     private readonly string _bookmarkFilePath;
     private readonly JsonSerializerOptions _jsonSerializerOptions = new() { WriteIndented = true };
 
-    public BookmarkService()
+    public BookmarkService(IConfiguration configuration)
     {
-        // Determine the platform-independent file path
-        string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-        string appFolder = Path.Combine(appDataPath, "LegendsViewer"); // Adjust app folder name
-        Directory.CreateDirectory(appFolder); // Ensure directory exists
+        // Use data directory for persistent storage (works with Docker volumes)
+        string dataDirectory = configuration["DataDirectory"] ?? "/app/data";
+        Directory.CreateDirectory(dataDirectory); // Ensure directory exists
 
-        _bookmarkFilePath = Path.Combine(appFolder, BookmarkFileName);
+        _bookmarkFilePath = Path.Combine(dataDirectory, BookmarkFileName);
 
         // Load bookmarks from disk if the file exists
         if (File.Exists(_bookmarkFilePath))
@@ -133,6 +133,101 @@ public class BookmarkService : IBookmarkService
         }
         SaveBookmarksToFile();
         return true;
+    }
+
+    public bool DeleteBookmark(string filePath)
+    {
+        // Try exact match first
+        if (_bookmarks.ContainsKey(filePath))
+        {
+            _bookmarks.Remove(filePath);
+            SaveBookmarksToFile();
+            return true;
+        }
+
+        // Extract filename from path if it's a full path
+        var fileName = Path.GetFileName(filePath);
+        if (string.IsNullOrWhiteSpace(fileName))
+        {
+            fileName = filePath;
+        }
+
+        // Extract timestamp from filename if it contains a timestamp
+        string timestamp = string.Empty;
+        string regionId = string.Empty;
+        
+        if (fileName.Contains(BookmarkController.FileIdentifierLegendsXml))
+        {
+            regionId = fileName.Replace(BookmarkController.FileIdentifierLegendsXml, "");
+            var (_, Timestamp) = GetRegionNameAndTimestampByRegionId(regionId);
+            timestamp = Timestamp;
+        }
+        else if (fileName.Contains(BookmarkController.FileIdentifierLegendsPlusXml))
+        {
+            regionId = fileName.Replace(BookmarkController.FileIdentifierLegendsPlusXml, "");
+            var (_, Timestamp) = GetRegionNameAndTimestampByRegionId(regionId);
+            timestamp = Timestamp;
+        }
+
+        if (!string.IsNullOrWhiteSpace(timestamp))
+        {
+            // Replace timestamp with placeholder to match bookmark key format
+            string keyWithPlaceholder = ReplaceLastOccurrence(filePath, timestamp, TimestampPlaceholder);
+            if (_bookmarks.ContainsKey(keyWithPlaceholder))
+            {
+                _bookmarks.Remove(keyWithPlaceholder);
+                SaveBookmarksToFile();
+                return true;
+            }
+
+            // Also try with just the filename
+            string fileNameWithPlaceholder = ReplaceLastOccurrence(fileName, timestamp, TimestampPlaceholder);
+            if (_bookmarks.ContainsKey(fileNameWithPlaceholder))
+            {
+                _bookmarks.Remove(fileNameWithPlaceholder);
+                SaveBookmarksToFile();
+                return true;
+            }
+
+            // Try matching by region name (in case the path format is different)
+            var (regionName, _) = GetRegionNameAndTimestampByRegionId(regionId);
+            if (!string.IsNullOrWhiteSpace(regionName))
+            {
+                return DeleteBookmarkByRegionId(regionId);
+            }
+        }
+
+        return false;
+    }
+
+    public bool DeleteBookmarkByRegionId(string regionId)
+    {
+        // Extract region name from regionId (remove timestamp: year-month-day)
+        var (regionName, _) = GetRegionNameAndTimestampByRegionId(regionId);
+        if (string.IsNullOrWhiteSpace(regionName))
+        {
+            return false;
+        }
+
+        // Find bookmark by matching WorldRegionName (most reliable method)
+        // Bookmarks have WorldRegionName field that stores the region name
+        var bookmarkKey = _bookmarks.Keys.FirstOrDefault(key =>
+        {
+            if (_bookmarks.TryGetValue(key, out var bookmark))
+            {
+                return bookmark.WorldRegionName == regionName;
+            }
+            return false;
+        });
+
+        if (bookmarkKey != null)
+        {
+            _bookmarks.Remove(bookmarkKey);
+            SaveBookmarksToFile();
+            return true;
+        }
+
+        return false;
     }
 
     private void SaveBookmarksToFile()
