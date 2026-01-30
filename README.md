@@ -63,7 +63,7 @@ Or use the included `docker-compose.yml` (mounts `./data` for bookmarks and uplo
 2. **Create app and configure:** From repo root, `fly launch` (or create app manually). Ensure `fly.toml` has:
    - `[build]` with `dockerfile = "Dockerfile"`
    - `[env]` with `ASPNETCORE_ENVIRONMENT=Production`, `ASPNETCORE_URLS=http://0.0.0.0:8080`
-   - `[http_service]` with `internal_port = 8080`, `auto_stop_machines = 'stop'`, `auto_start_machines = true`, `min_machines_running = 0`
+   - `[http_service]` with `internal_port = 8080`, `auto_stop_machines = 'stop'`, `auto_start_machines = true`, `min_machines_running = 1`
    - Health check: `[[http_service.checks]]` with `path = "/api/version"`
    - `[[vm]]` with `memory_mb = 512` (or 1024 for large worlds)
 
