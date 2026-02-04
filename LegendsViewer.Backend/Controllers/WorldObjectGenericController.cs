@@ -1,7 +1,8 @@
-﻿using LegendsViewer.Backend.Contracts;
+using LegendsViewer.Backend.Contracts;
 using LegendsViewer.Backend.DataAccess.Repositories.Interfaces;
 using LegendsViewer.Backend.Extensions;
 using LegendsViewer.Backend.Legends;
+using LegendsViewer.Backend.Utilities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LegendsViewer.Backend.Controllers;
@@ -30,13 +31,18 @@ public abstract class WorldObjectGenericController<T>(IWorldObjectRepository<T> 
             return BadRequest("Page number and page size must be greater than zero.");
         }
 
+        var normalizedSearch = Formatting.NormalizeForSearch(search);
+        bool hasNormalizedSearch = !string.IsNullOrEmpty(normalizedSearch);
+
         // Filter world objects
         var filteredWorldObjects = Repository.GetAllElements()
             .Where(worldObject =>
                 string.IsNullOrWhiteSpace(search) ||
                 worldObject.Name.Contains(search, StringComparison.InvariantCultureIgnoreCase) ||
                 worldObject.Type?.Contains(search, StringComparison.InvariantCultureIgnoreCase) == true ||
-                worldObject.Subtype?.Contains(search, StringComparison.InvariantCultureIgnoreCase) == true);
+                worldObject.Subtype?.Contains(search, StringComparison.InvariantCultureIgnoreCase) == true ||
+                (hasNormalizedSearch &&
+                 worldObject.SearchAliases.Any(alias => alias.Contains(normalizedSearch, StringComparison.Ordinal))));
 
         // Get total number of elements
         int totalElements = Repository.GetCount();

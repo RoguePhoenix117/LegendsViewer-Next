@@ -15615,6 +15615,8 @@ export interface components {
             eventCount?: number;
             /** Format: int32 */
             eventCollectionCount?: number;
+            /** First Dwarven alias when present, for matching Dwarven search to table rows */
+            dwarvenAlias?: string | null;
         };
         WorldObjectDtoPaginatedResponse: {
             items?: components["schemas"]["WorldObjectDto"][] | null;

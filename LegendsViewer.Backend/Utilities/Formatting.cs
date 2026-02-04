@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+using System.Drawing;
+using System.Globalization;
 using System.Text;
 using LegendsViewer.Backend.Legends;
 using LegendsViewer.Backend.Legends.Interfaces;
@@ -178,6 +179,48 @@ public static class Formatting
     public static string FormatRace(string race)
     {
         return race.Contains("FORGOTTEN") ? "Forgotten Beast" : InitCaps(race);
+    }
+
+    /// <summary>
+    /// Normalizes a string for accent-insensitive search matching.
+    /// Lowercases, trims, removes diacritics, and collapses whitespace.
+    /// </summary>
+    public static string NormalizeForSearch(string? value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            return string.Empty;
+        }
+
+        var normalized = value.Trim().ToLowerInvariant().Normalize(NormalizationForm.FormD);
+        StringBuilder builder = new(normalized.Length);
+        bool previousWasSpace = false;
+
+        foreach (var ch in normalized)
+        {
+            var category = CharUnicodeInfo.GetUnicodeCategory(ch);
+            if (category == UnicodeCategory.NonSpacingMark ||
+                category == UnicodeCategory.SpacingCombiningMark ||
+                category == UnicodeCategory.EnclosingMark)
+            {
+                continue;
+            }
+
+            if (char.IsWhiteSpace(ch))
+            {
+                if (!previousWasSpace && builder.Length > 0)
+                {
+                    builder.Append(' ');
+                    previousWasSpace = true;
+                }
+                continue;
+            }
+
+            builder.Append(ch);
+            previousWasSpace = false;
+        }
+
+        return builder.ToString();
     }
 
     public static string RemoveSpecialCharacters(string str)

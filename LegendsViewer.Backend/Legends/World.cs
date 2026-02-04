@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Text;
@@ -9,6 +9,7 @@ using LegendsViewer.Backend.Legends.Events;
 using LegendsViewer.Backend.Legends.Extensions;
 using LegendsViewer.Backend.Legends.Interfaces;
 using LegendsViewer.Backend.Legends.Parser;
+using LegendsViewer.Backend.Legends.Translations;
 using LegendsViewer.Backend.Legends.Various;
 using LegendsViewer.Backend.Legends.WorldLinks;
 using LegendsViewer.Backend.Legends.WorldObjects;
@@ -80,6 +81,8 @@ public class World : IDisposable, IWorld
 
     public List<WorldObject> PlayerRelatedObjects { get; } = [];
 
+    private readonly IDwarvenDictionary? _dwarvenDictionary;
+
     public readonly Dictionary<int, WorldEvent> SpecialEventsById = [];
     public readonly Dictionary<Location, WorldRegion> WorldGrid = [];
 
@@ -107,8 +110,13 @@ public class World : IDisposable, IWorld
     private readonly List<Entity> _entityEntityLinkEntities = [];// legends_plus.xml
     private readonly List<Property> _entityEntityLinks = [];// legends_plus.xml
 
-    public World()
+    public World() : this(null)
     {
+    }
+
+    public World(IDwarvenDictionary? dwarvenDictionary)
+    {
+        _dwarvenDictionary = dwarvenDictionary;
         MainRaces.Clear();
         Log.Clear();
         ParsingErrors.Clear();
@@ -144,7 +152,7 @@ public class World : IDisposable, IWorld
         ResolveArtifactProperties();
         ResolveArtformEventsProperties();
         ResolveEntityIsMainCiv();
-
+        GenerateSearchAliasesForWorldObjects();
         GenerateCivColors();
 
         Log.AppendLine(ParsingErrors.Print());
@@ -197,6 +205,37 @@ public class World : IDisposable, IWorld
             }
             entity.Name = string.IsNullOrWhiteSpace(entity.Name) ? entity.GetTitle() : entity.Name;
         }
+    }
+
+    private void GenerateSearchAliasesForWorldObjects()
+    {
+        foreach (var worldObject in EnumerateWorldObjects())
+        {
+            var (aliases, dwarvenDisplay) = SearchAliasGenerator.BuildAliases(worldObject.Name, _dwarvenDictionary);
+            worldObject.SetSearchAliases(aliases);
+            worldObject.DwarvenDisplayName = dwarvenDisplay;
+        }
+    }
+
+    private IEnumerable<WorldObject> EnumerateWorldObjects()
+    {
+        foreach (var item in Regions) yield return item;
+        foreach (var item in UndergroundRegions) yield return item;
+        foreach (var item in Landmasses) yield return item;
+        foreach (var item in MountainPeaks) yield return item;
+        foreach (var item in Rivers) yield return item;
+        foreach (var item in Sites) yield return item;
+        foreach (var item in HistoricalFigures) yield return item;
+        foreach (var item in Entities) yield return item;
+        foreach (var item in Eras) yield return item;
+        foreach (var item in Artifacts) yield return item;
+        foreach (var item in WorldConstructions) yield return item;
+        foreach (var item in PoeticForms) yield return item;
+        foreach (var item in MusicalForms) yield return item;
+        foreach (var item in DanceForms) yield return item;
+        foreach (var item in WrittenContents) yield return item;
+        foreach (var item in Structures) yield return item;
+        foreach (var item in EventCollections) yield return item;
     }
 
     public void AddPlayerRelatedDwarfObjects(WorldObject dwarfObject)
