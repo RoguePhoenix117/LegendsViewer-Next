@@ -32,20 +32,33 @@
     </v-row>
     <v-row>
         <v-col>
-            <v-card :title="overviewTitle" :subtitle="overviewSubtitle" variant="text">
+            <v-card :title="overviewTitle" :subtitle="`${overviewSubtitle} — search by English or Dwarven names`" variant="text">
                 <template v-slot:prepend>
                     <v-icon class="mr-2" icon="mdi-card-search-outline" size="32px"></v-icon>
                 </template>
                 <template v-slot:text>
-                    <v-text-field v-model="searchString" label="Search" prepend-inner-icon="mdi-magnify"
-                        variant="outlined" hide-details single-line></v-text-field>
+                    <v-text-field v-model="searchString" label="Search" placeholder="English or Dwarven name"
+                        prepend-inner-icon="mdi-magnify" variant="outlined" hide-details single-line
+                        persistent-placeholder>
+                        <template v-slot:append-inner>
+                            <v-tooltip location="top">
+                                <template v-slot:activator="{ props: tProps }">
+                                    <v-icon v-bind="tProps" icon="mdi-information-outline" size="small" class="text-medium-emphasis" />
+                                </template>
+                                Search by English or Dwarven names (e.g. ngathsesh).
+                            </v-tooltip>
+                        </template>
+                    </v-text-field>
                 </template>
                 <v-card-text>
                     <v-data-table-server v-model:items-per-page="store.objectsPerPage" :headers="tableHeaders"
                         :items="store.objects" :items-length="store.objectsTotalFilteredItems" :search="searchString"
                         :loading="store.isLoading" item-value="id" :items-per-page-options="store.itemsPerPageOptions" @update:options="loadWorldObjects">
-                        <template v-slot:item.html="{ value }">
-                            <span v-html="value"></span>
+                        <template v-slot:item.html="{ item }">
+                            <div>
+                                <span v-html="asWorldObject(item).html"></span>
+                                <span v-if="asWorldObject(item).dwarvenAlias" class="text-caption text-medium-emphasis ml-1">({{ asWorldObject(item).dwarvenAlias }})</span>
+                            </div>
                         </template>
                         <template v-slot:item.subtype="{ value }">
                             <span v-html="value"></span>
@@ -68,7 +81,14 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue';
+import { components } from '../generated/api-schema';
 import { LoadItemsOptionsWithSearch, TableHeader } from '../types/legends';
+
+type WorldObjectDto = components['schemas']['WorldObjectDto'];
+
+function asWorldObject(item: unknown): WorldObjectDto {
+    return item as WorldObjectDto;
+}
 
 const props = defineProps({
     store: {

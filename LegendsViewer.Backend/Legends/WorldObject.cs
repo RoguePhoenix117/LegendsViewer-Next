@@ -1,4 +1,4 @@
-﻿using LegendsViewer.Backend.Legends.EventCollections;
+using LegendsViewer.Backend.Legends.EventCollections;
 using LegendsViewer.Backend.Legends.Events;
 using LegendsViewer.Backend.Legends.Parser;
 using System.Text.Json.Serialization;
@@ -23,6 +23,16 @@ public abstract class WorldObject : DwarfObject
 
     [JsonIgnore]
     public World? World { get; }
+
+    [JsonIgnore]
+    public IReadOnlyList<string> SearchAliases => _searchAliases;
+
+    /// <summary>
+    /// Raw Dwarven translation with accents for display. Search aliases use normalized (accent-stripped) form.
+    /// </summary>
+    public string? DwarvenDisplayName { get; set; }
+
+    private readonly List<string> _searchAliases = [];
 
     public int EventCount => Events.Count;
     public int EventCollectionCount => EventCollections.Count;
@@ -51,5 +61,17 @@ public abstract class WorldObject : DwarfObject
     public override string ToLink(bool link = true, DwarfObject? pov = null, WorldEvent? worldEvent = null)
     {
         return "";
+    }
+
+    public void SetSearchAliases(IEnumerable<string> aliases)
+    {
+        _searchAliases.Clear();
+        foreach (var alias in aliases)
+        {
+            if (!string.IsNullOrWhiteSpace(alias))
+            {
+                _searchAliases.Add(alias);
+            }
+        }
     }
 }

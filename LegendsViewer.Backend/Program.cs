@@ -5,6 +5,7 @@ using LegendsViewer.Backend.Legends.Bookmarks;
 using LegendsViewer.Backend.Legends.Interfaces;
 using LegendsViewer.Backend.Legends.Maps;
 using LegendsViewer.Backend.Logging;
+using LegendsViewer.Backend.Legends.Translations;
 using LegendsViewer.Frontend;
 using Microsoft.Extensions.Logging.Console;
 using System.Text;
@@ -50,8 +51,13 @@ public class Program
             serverOptions.Limits.MaxRequestBodySize = 1024L * 1024L * 1024L; // 1 GB
         });
 
-        builder.Services.AddSingleton<IWorld, World>();
+builder.Services.AddSingleton<IWorld>(sp =>
+{
+    var dictionary = sp.GetRequiredService<IDwarvenDictionary>();
+    return new World(dictionary);
+});
         builder.Services.AddSingleton<IWorldMapImageGenerator, WorldMapImageGenerator>();
+        builder.Services.AddSingleton<IDwarvenDictionary, DwarvenDictionary>();
         builder.Services.AddSingleton<IBookmarkService, BookmarkService>();
         builder.Services.AddClassicRepositories();
 

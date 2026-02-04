@@ -1,0 +1,6590 @@
+{
+  "ABATE": [
+    "med"
+  ],
+  "ABBEY": [
+    "kulet"
+  ],
+  "ABSOLUTE": [
+    "ilas"
+  ],
+  "ABYSMAL": [
+    "sosas"
+  ],
+  "ABYSS": [
+    "ngal\u00E1k"
+  ],
+  "ACCIDENT": [
+    "kuthd\u00EAng"
+  ],
+  "ACE": [
+    "alak"
+  ],
+  "ACHE": [
+    "agseth"
+  ],
+  "ACRID": [
+    "tatek"
+  ],
+  "ACT": [
+    "bidok"
+  ],
+  "ACTION": [
+    "nikot"
+  ],
+  "ADMIRATION": [
+    "\u00EClud"
+  ],
+  "ADMIRE": [
+    "neb\u00E9l"
+  ],
+  "ADORE": [
+    "salir"
+  ],
+  "ADULATE": [
+    "kulbet"
+  ],
+  "ADVENTURE": [
+    "cen\u00E4th"
+  ],
+  "AFFECTION": [
+    "l\u00E2ndar"
+  ],
+  "AFFLICT": [
+    "thokit"
+  ],
+  "AFTER": [
+    "nicol"
+  ],
+  "AGE": [
+    "anam"
+  ],
+  "AGELESS": [
+    "gatal"
+  ],
+  "AIR": [
+    "zafal"
+  ],
+  "ALCHEMY": [
+    "anzish"
+  ],
+  "ALE": [
+    "mabdug"
+  ],
+  "ALLEGIANCE": [
+    "uzan"
+  ],
+  "ALLIANCE": [
+    "boshut"
+  ],
+  "ALLY": [
+    "astel"
+  ],
+  "AMAZE": [
+    "edos"
+  ],
+  "AMBER": [
+    "thukkan"
+  ],
+  "AMBIGUOUS": [
+    "umgan"
+  ],
+  "AMETHYST": [
+    "alron"
+  ],
+  "AMUSE": [
+    "\u00EFdath"
+  ],
+  "ANCIENT": [
+    "zustash"
+  ],
+  "ANGEL": [
+    "sedil"
+  ],
+  "ANGER": [
+    "ustos"
+  ],
+  "ANGUISH": [
+    "roldeth"
+  ],
+  "ANIMAL": [
+    "em\u00E4r"
+  ],
+  "ANKLE": [
+    "otsus"
+  ],
+  "ANVIL": [
+    "zunt\u00EEr"
+  ],
+  "APE": [
+    "izeg"
+  ],
+  "APEX": [
+    "lebes"
+  ],
+  "APOGEE": [
+    "t\u00F6mud"
+  ],
+  "APPEAR": [
+    "asrer"
+  ],
+  "APPLE": [
+    "bem\u00F2ng"
+  ],
+  "AQUA": [
+    "ung\u00F2b"
+  ],
+  "AQUAMARINE": [
+    "\u00FAtost"
+  ],
+  "ARCH": [
+    "gost"
+  ],
+  "ARCH NOUN": [
+    "rovod"
+  ],
+  "ARDENT": [
+    "k\u00EDddir"
+  ],
+  "ARENA": [
+    "uvash"
+  ],
+  "ARM": [
+    "\u00F6ntak"
+  ],
+  "ARMOR": [
+    "tosid"
+  ],
+  "ARMORY": [
+    "kumil"
+  ],
+  "ARROW": [
+    "feb"
+  ],
+  "ARTIFACT": [
+    "zan"
+  ],
+  "ARTIFICE": [
+    "berim"
+  ],
+  "ASH": [
+    "ibruk"
+  ],
+  "ASHAMED": [
+    "mangr\u00F2d"
+  ],
+  "ASSAULT": [
+    "arist"
+  ],
+  "ASSEMBLE": [
+    "fidgam"
+  ],
+  "ATTACK": [
+    "rashgur"
+  ],
+  "ATTIC": [
+    "endok"
+  ],
+  "AUBURN": [
+    "sanus"
+  ],
+  "AUNT": [
+    "ermis"
+  ],
+  "AURA": [
+    "thoth"
+  ],
+  "AUTHOR": [
+    "ardes"
+  ],
+  "AUTHORITY": [
+    "tobot"
+  ],
+  "AUTONOMY": [
+    "shigin"
+  ],
+  "AUTUMN": [
+    "thatthil"
+  ],
+  "AVALANCHE": [
+    "moldath"
+  ],
+  "AWE-INSPIRING": [
+    "g\u00F2stang"
+  ],
+  "AXE": [
+    "libash"
+  ],
+  "AZURE": [
+    "kith\u00E4l"
+  ],
+  "BABY": [
+    "\u00E5m"
+  ],
+  "BACK": [
+    "lakish"
+  ],
+  "BAD": [
+    "asdos"
+  ],
+  "BAIT": [
+    "geshak"
+  ],
+  "BAKE": [
+    "nel"
+  ],
+  "BALANCE": [
+    "neth"
+  ],
+  "BALD": [
+    "roder"
+  ],
+  "BALL": [
+    "biban"
+  ],
+  "BAND GROUP": [
+    "konad"
+  ],
+  "BAND OBJECT": [
+    "em\u00E4th"
+  ],
+  "BANDIT": [
+    "\u00E4gash"
+  ],
+  "BANE": [
+    "ugog"
+  ],
+  "BANK": [
+    "g\u00E9rig"
+  ],
+  "BANNER": [
+    "zulban"
+  ],
+  "BAR": [
+    "ish"
+  ],
+  "BARB": [
+    "robek"
+  ],
+  "BARBARIAN": [
+    "stingbol"
+  ],
+  "BARBARITY": [
+    "bashnom"
+  ],
+  "BARRICADE": [
+    "tholtig"
+  ],
+  "BASEMENT": [
+    "ushat"
+  ],
+  "BASIC": [
+    "enseb"
+  ],
+  "BASIN": [
+    "odom"
+  ],
+  "BASTION": [
+    "b\u00EBr\u00FBl"
+  ],
+  "BATH": [
+    "olmul"
+  ],
+  "BATTLE": [
+    "nokzam"
+  ],
+  "BEACH": [
+    "m\u00ECshos"
+  ],
+  "BEAK": [
+    "emuth"
+  ],
+  "BEAN": [
+    "nang\u00EAs"
+  ],
+  "BEAR": [
+    "uvel"
+  ],
+  "BEARD": [
+    "durad"
+  ],
+  "BEAR_VERB": [
+    "dolush"
+  ],
+  "BEAST": [
+    "fer"
+  ],
+  "BEAUTY": [
+    "kinem"
+  ],
+  "BED": [
+    "zust"
+  ],
+  "BEE": [
+    "ag\u00EAk"
+  ],
+  "BEER": [
+    "ucat"
+  ],
+  "BEETLE": [
+    "ng\u00E1rak"
+  ],
+  "BEGIN": [
+    "ritan"
+  ],
+  "BEGUILER": [
+    "enir"
+  ],
+  "BEIGE": [
+    "theb"
+  ],
+  "BELCH": [
+    "ugath"
+  ],
+  "BELL": [
+    "rith"
+  ],
+  "BELLY": [
+    "t\u00F2m"
+  ],
+  "BELOVED": [
+    "arom"
+  ],
+  "BELT": [
+    "\u00EEm\u00E4z"
+  ],
+  "BEND": [
+    "mat"
+  ],
+  "BERRY": [
+    "lisig"
+  ],
+  "BETRAY": [
+    "oshn\u00EFl"
+  ],
+  "BEWILDER": [
+    "zutshosh"
+  ],
+  "BEWITCH": [
+    "nonshut"
+  ],
+  "BIG": [
+    "et\u00E4g"
+  ],
+  "BILE": [
+    "erong"
+  ],
+  "BIN": [
+    "osed"
+  ],
+  "BIND": [
+    "estun"
+  ],
+  "BIRD": [
+    "lanlar"
+  ],
+  "BIRTH": [
+    "n\u00F3ton"
+  ],
+  "BITE": [
+    "nitig"
+  ],
+  "BITTER": [
+    "r\u00E4duk"
+  ],
+  "BLACK": [
+    "udir"
+  ],
+  "BLADE": [
+    "tarmid"
+  ],
+  "BLAME": [
+    "nulom"
+  ],
+  "BLAMELESS": [
+    "ustan"
+  ],
+  "BLANCH": [
+    "enoz"
+  ],
+  "BLANKET": [
+    "l\u00E5l"
+  ],
+  "BLAZE": [
+    "s\u00E1krith"
+  ],
+  "BLEACH": [
+    "satneng"
+  ],
+  "BLEED": [
+    "sut"
+  ],
+  "BLENCH": [
+    "rotig"
+  ],
+  "BLIGHT": [
+    "sharsid"
+  ],
+  "BLIND": [
+    "nural"
+  ],
+  "BLISTER": [
+    "bugsud"
+  ],
+  "BLIZZARD": [
+    "zolak"
+  ],
+  "BLOAT": [
+    "okag"
+  ],
+  "BLOCK DEFEND": [
+    "rifot"
+  ],
+  "BLOCK SQUARE": [
+    "kastar"
+  ],
+  "BLOCKADE": [
+    "medtob"
+  ],
+  "BLOOD": [
+    "nazush"
+  ],
+  "BLOODY": [
+    "nashon"
+  ],
+  "BLOSSOM": [
+    "\u00E2trid"
+  ],
+  "BLOT": [
+    "kod"
+  ],
+  "BLOTCH": [
+    "stektob"
+  ],
+  "BLOW": [
+    "etes"
+  ],
+  "BLUE": [
+    "en\u00F4r"
+  ],
+  "BLUNT": [
+    "un\u00E2l"
+  ],
+  "BLUSH": [
+    "umer"
+  ],
+  "BOAR": [
+    "d\u00F9stik"
+  ],
+  "BOARD GET ON": [
+    "g\u00E5k\u00EFz"
+  ],
+  "BOARD PLANK": [
+    "asob"
+  ],
+  "BOAT": [
+    "kogan"
+  ],
+  "BODICE": [
+    "ingish"
+  ],
+  "BODY": [
+    "torad"
+  ],
+  "BOG": [
+    "dudgoth"
+  ],
+  "BOIL": [
+    "stalk\u00F2b"
+  ],
+  "BOIL_V": [
+    "themor"
+  ],
+  "BOLD": [
+    "murak"
+  ],
+  "BOLT": [
+    "al\u00E5th"
+  ],
+  "BONE": [
+    "osod"
+  ],
+  "BOOK": [
+    "th\u00EEkut"
+  ],
+  "BOOT": [
+    "cog"
+  ],
+  "BORE DRILL": [
+    "at\u00EAk"
+  ],
+  "BOREDOM": [
+    "edod"
+  ],
+  "BOTHER": [
+    "selsten"
+  ],
+  "BOTTLE": [
+    "shomad"
+  ],
+  "BOTTOM": [
+    "gothum"
+  ],
+  "BOULDER": [
+    "etur"
+  ],
+  "BOW": [
+    "egdoth"
+  ],
+  "BOWEL GUT": [
+    "g\u00FAr"
+  ],
+  "BOWEL INTERIOR": [
+    "rodum"
+  ],
+  "BOWL": [
+    "arust"
+  ],
+  "BOW_VERB": [
+    "othsin"
+  ],
+  "BOY": [
+    "\u00E4rged"
+  ],
+  "BRAID": [
+    "nakuth"
+  ],
+  "BRAIN": [
+    "idek"
+  ],
+  "BRAND": [
+    "zes"
+  ],
+  "BRASH": [
+    "midrim"
+  ],
+  "BRASS": [
+    "konos"
+  ],
+  "BRAVERY": [
+    "\u00E2tast"
+  ],
+  "BRAZEN": [
+    "urthaz"
+  ],
+  "BREACH": [
+    "\u00F9st"
+  ],
+  "BREAD": [
+    "\u00EDm"
+  ],
+  "BREAK": [
+    "okab"
+  ],
+  "BREAKFAST": [
+    "onl\u00ECl"
+  ],
+  "BREATH": [
+    "gasol"
+  ],
+  "BREECHES": [
+    "suthmam"
+  ],
+  "BREED": [
+    "tegir"
+  ],
+  "BREW": [
+    "nam\u00E0sh"
+  ],
+  "BRIDE": [
+    "noval"
+  ],
+  "BRIDGE": [
+    "sazir"
+  ],
+  "BRIDLE": [
+    "shalig"
+  ],
+  "BRIGAND": [
+    "bogsosh"
+  ],
+  "BRIGHT": [
+    "shin"
+  ],
+  "BRILLIANT": [
+    "\u00E4kim"
+  ],
+  "BRIM": [
+    "k\u00E2kdal"
+  ],
+  "BRISTLE": [
+    "lek"
+  ],
+  "BROIL": [
+    "stum\u00E4m"
+  ],
+  "BRONZE": [
+    "kilrud"
+  ],
+  "BROTHER": [
+    "alud"
+  ],
+  "BROWN": [
+    "neb"
+  ],
+  "BRUNCH": [
+    "olom"
+  ],
+  "BRUSH": [
+    "nosing"
+  ],
+  "BRUTE": [
+    "t\u00EErdug"
+  ],
+  "BUCK": [
+    "\u00EBlot"
+  ],
+  "BUCKLE": [
+    "rozsed"
+  ],
+  "BUD": [
+    "enshal"
+  ],
+  "BUFF": [
+    "itred"
+  ],
+  "BUG": [
+    "rintor"
+  ],
+  "BULB": [
+    "egeb"
+  ],
+  "BULBOUS": [
+    "gubel"
+  ],
+  "BULWARK": [
+    "rithz\u00E2m"
+  ],
+  "BUNCH": [
+    "thos"
+  ],
+  "BUNION": [
+    "shadust"
+  ],
+  "BUNNY": [
+    "sh\u00E8rel"
+  ],
+  "BURDEN": [
+    "okon"
+  ],
+  "BURN": [
+    "n\u00EFng"
+  ],
+  "BURST": [
+    "instol"
+  ],
+  "BURY": [
+    "ostar"
+  ],
+  "BUSH": [
+    "rorul"
+  ],
+  "BUSHEL": [
+    "kovath"
+  ],
+  "BUSINESS": [
+    "girtol"
+  ],
+  "BUST_NOUN": [
+    "\u00E5blel"
+  ],
+  "BUST_VERB": [
+    "stal"
+  ],
+  "BUSY": [
+    "kit\u00EFg"
+  ],
+  "BUTCHER": [
+    "lokast"
+  ],
+  "BUTTER": [
+    "reked"
+  ],
+  "BUTTERFLY": [
+    "comn\u00EDth"
+  ],
+  "BUTTON": [
+    "sidos"
+  ],
+  "BUZZARD": [
+    "setnek"
+  ],
+  "CACKLE": [
+    "ethbesh"
+  ],
+  "CACTUS": [
+    "kith\u00ECn"
+  ],
+  "CAD": [
+    "nug"
+  ],
+  "CAGE": [
+    "mokez"
+  ],
+  "CAKE": [
+    "c\u00F6s"
+  ],
+  "CALAMITY": [
+    "rorash"
+  ],
+  "CALL": [
+    "idos"
+  ],
+  "CALLUS": [
+    "zimun"
+  ],
+  "CALM": [
+    "betan"
+  ],
+  "CAMP": [
+    "og\u00EEk"
+  ],
+  "CANCER": [
+    "utheg"
+  ],
+  "CANDLE": [
+    "t\u00EDlgil"
+  ],
+  "CANDY": [
+    "ebsas"
+  ],
+  "CANKER": [
+    "lurak"
+  ],
+  "CANYON": [
+    "tobul"
+  ],
+  "CARDINAL_COLOR": [
+    "luthoz"
+  ],
+  "CARMINE": [
+    "thastith"
+  ],
+  "CARNAGE": [
+    "ilush"
+  ],
+  "CARNAL": [
+    "sheced"
+  ],
+  "CARRY": [
+    "ozkak"
+  ],
+  "CASKET": [
+    "d\u00EBnush"
+  ],
+  "CASTLE": [
+    "rimtar"
+  ],
+  "CAT": [
+    "kun"
+  ],
+  "CATCH": [
+    "\u00E5kum"
+  ],
+  "CATHEDRAL": [
+    "l\u00F2r\u00E5m"
+  ],
+  "CAVE": [
+    "\u00E4s"
+  ],
+  "CAVERN": [
+    "kor"
+  ],
+  "CAVITY": [
+    "g\u00F6tom"
+  ],
+  "CAVORT": [
+    "nastid"
+  ],
+  "CEILING": [
+    "\u00EFngiz"
+  ],
+  "CELEBRATE": [
+    "faz\u00EDs"
+  ],
+  "CELL": [
+    "kiror"
+  ],
+  "CERTAIN": [
+    "\u00F3s"
+  ],
+  "CERULEAN": [
+    "remang"
+  ],
+  "CHAIN": [
+    "nicat"
+  ],
+  "CHAMBER": [
+    "mafol"
+  ],
+  "CHAMPION": [
+    "akur"
+  ],
+  "CHANCE": [
+    "tenshed"
+  ],
+  "CHANNEL": [
+    "catten"
+  ],
+  "CHANT": [
+    "onshen"
+  ],
+  "CHAOS": [
+    "r\u00EBrith"
+  ],
+  "CHAPEL": [
+    "rosat"
+  ],
+  "CHAR": [
+    "sid"
+  ],
+  "CHARCOAL": [
+    "athser"
+  ],
+  "CHARITY": [
+    "thomal"
+  ],
+  "CHARM": [
+    "\u00ECtd\u00F9n"
+  ],
+  "CHARTREUSE": [
+    "ngusham"
+  ],
+  "CHASM": [
+    "tak\u00F9th"
+  ],
+  "CHASTITY": [
+    "mus\u00F6d"
+  ],
+  "CHEERFUL": [
+    "debben"
+  ],
+  "CHEESE": [
+    "shokmug"
+  ],
+  "CHERISH": [
+    "emad"
+  ],
+  "CHESTNUT": [
+    "gingik"
+  ],
+  "CHEW": [
+    "zurs\u00F9l"
+  ],
+  "CHILD": [
+    "tilat"
+  ],
+  "CHILL": [
+    "\u00EEtat"
+  ],
+  "CHIP_NOUN": [
+    "egot"
+  ],
+  "CHIP_VERB": [
+    "dib"
+  ],
+  "CHIRP": [
+    "oril"
+  ],
+  "CHOCOLATE": [
+    "rangab"
+  ],
+  "CHOKE": [
+    "bukog"
+  ],
+  "CHOP": [
+    "atot"
+  ],
+  "CHUCK": [
+    "imik"
+  ],
+  "CHUNK": [
+    "bor"
+  ],
+  "CHURCH": [
+    "arek"
+  ],
+  "CINDER": [
+    "sudir"
+  ],
+  "CINNAMON": [
+    "kontuth"
+  ],
+  "CIRCLE": [
+    "oshur"
+  ],
+  "CIRCUMSTANCE": [
+    "assar"
+  ],
+  "CITADEL": [
+    "mestthos"
+  ],
+  "CITY": [
+    "ineth"
+  ],
+  "CLAM": [
+    "odshith"
+  ],
+  "CLAN": [
+    "thedak"
+  ],
+  "CLAP": [
+    "rag"
+  ],
+  "CLARIFY": [
+    "merig"
+  ],
+  "CLASH": [
+    "lisid"
+  ],
+  "CLASP": [
+    "dod\u00F3k"
+  ],
+  "CLAW": [
+    "sinsot"
+  ],
+  "CLEAN": [
+    "lecad"
+  ],
+  "CLEANSE": [
+    "fushur"
+  ],
+  "CLEAR": [
+    "es"
+  ],
+  "CLEARING": [
+    "dostob"
+  ],
+  "CLEAVE": [
+    "gast"
+  ],
+  "CLENCH": [
+    "egast"
+  ],
+  "CLIMATE": [
+    "dar\u00F9d"
+  ],
+  "CLIMAX": [
+    "lir"
+  ],
+  "CLINCH": [
+    "akgos"
+  ],
+  "CLING": [
+    "\u00E9lmeth"
+  ],
+  "CLOAK": [
+    "romlam"
+  ],
+  "CLOBBER": [
+    "av\u00E9d"
+  ],
+  "CLOCK": [
+    "dar\u00E5l"
+  ],
+  "CLOD": [
+    "\u00E2n"
+  ],
+  "CLOISTER": [
+    "oddom"
+  ],
+  "CLOSE": [
+    "urol"
+  ],
+  "CLOSET": [
+    "z\u00E4gel"
+  ],
+  "CLOUD": [
+    "lun"
+  ],
+  "CLOUT": [
+    "zatam"
+  ],
+  "CLUB": [
+    "og"
+  ],
+  "CLUSTER": [
+    "shatag"
+  ],
+  "CLUTCH": [
+    "sholid"
+  ],
+  "CLUTTER": [
+    "om"
+  ],
+  "COAL": [
+    "r\u00EEsen"
+  ],
+  "COALITION": [
+    "ranzar"
+  ],
+  "COAST": [
+    "teling"
+  ],
+  "COBALT": [
+    "letmos"
+  ],
+  "COBRA": [
+    "gis\u00EBk"
+  ],
+  "COIL": [
+    "balad"
+  ],
+  "COINCIDENCE": [
+    "rafum"
+  ],
+  "COLD": [
+    "nekik"
+  ],
+  "COLOR": [
+    "dakas"
+  ],
+  "COLORLESS": [
+    "mekur"
+  ],
+  "COLUMN": [
+    "muthir"
+  ],
+  "COMBAT": [
+    "zoluth"
+  ],
+  "COMBINE": [
+    "artob"
+  ],
+  "COMEDY": [
+    "res\u00EDl"
+  ],
+  "COMET": [
+    "dolek"
+  ],
+  "COMMON": [
+    "ult\u00E8r"
+  ],
+  "COMMUNION": [
+    "ruken"
+  ],
+  "COMPANY": [
+    "k\u00E2tad"
+  ],
+  "COMPASSION": [
+    "karas"
+  ],
+  "COMPETE": [
+    "\u00E2goth"
+  ],
+  "COMPLEX": [
+    "\u00E1dol"
+  ],
+  "CONFEDERACY": [
+    "mul\u00E5sh"
+  ],
+  "CONFEDERATION": [
+    "onesh"
+  ],
+  "CONFIDENT": [
+    "thik\u00E9n"
+  ],
+  "CONFINE": [
+    "kacoth"
+  ],
+  "CONFLAGRATION": [
+    "thestkig"
+  ],
+  "CONFLICT": [
+    "gemesh"
+  ],
+  "CONFUSE": [
+    "shadmal"
+  ],
+  "CONJUNCTION": [
+    "kastaz"
+  ],
+  "CONJURE": [
+    "tusung"
+  ],
+  "CONJURER": [
+    "ullung"
+  ],
+  "CONNECT": [
+    "kezk\u00EDg"
+  ],
+  "CONQUEROR": [
+    "sog"
+  ],
+  "CONSIDERATE": [
+    "nucam"
+  ],
+  "CONSTRUCT": [
+    "aban"
+  ],
+  "CONTAIN": [
+    "etost"
+  ],
+  "CONTEMPT": [
+    "gishgil"
+  ],
+  "CONTEST": [
+    "\u00E1gesh"
+  ],
+  "CONTINENT": [
+    "lin\u00F2n"
+  ],
+  "CONTINGENCY": [
+    "mingtuth"
+  ],
+  "CONTINGENT": [
+    "shizek"
+  ],
+  "CONTROL": [
+    "egul"
+  ],
+  "CONTROLLER": [
+    "tesum"
+  ],
+  "CONVENIENT": [
+    "letom"
+  ],
+  "CONVENT": [
+    "kanzud"
+  ],
+  "COOK": [
+    "rafar"
+  ],
+  "COOPERATE": [
+    "etn\u00E0r"
+  ],
+  "COPPER": [
+    "gusil"
+  ],
+  "CORRIDOR": [
+    "minkot"
+  ],
+  "CORRUPT": [
+    "shusug"
+  ],
+  "COSMOS": [
+    "kordam"
+  ],
+  "COTTAGE": [
+    "\u00EEgbit"
+  ],
+  "COTTON": [
+    "\u00EEkeng"
+  ],
+  "COUNCIL": [
+    "\u00F6ssek"
+  ],
+  "COUNSEL": [
+    "amkol"
+  ],
+  "COUPLE": [
+    "dan"
+  ],
+  "COURAGE": [
+    "samam"
+  ],
+  "COURTESY": [
+    "tustem"
+  ],
+  "COVEN": [
+    "zocol"
+  ],
+  "COVER": [
+    "laltur"
+  ],
+  "CRAB": [
+    "ozsit"
+  ],
+  "CRACK": [
+    "obot"
+  ],
+  "CRADLE": [
+    "arban"
+  ],
+  "CRAFT": [
+    "rig\u00F2th"
+  ],
+  "CRATER": [
+    "sulus"
+  ],
+  "CRAWL": [
+    "dunan"
+  ],
+  "CRAZE": [
+    "uling"
+  ],
+  "CRAZY": [
+    "d\u00EEbesh"
+  ],
+  "CREAM": [
+    "berath"
+  ],
+  "CREATE": [
+    "d\u00F4bar"
+  ],
+  "CREATURE": [
+    "mes"
+  ],
+  "CREED": [
+    "farash"
+  ],
+  "CREEK": [
+    "zangin"
+  ],
+  "CREEP": [
+    "shadkik"
+  ],
+  "CREEPY": [
+    "innok"
+  ],
+  "CREMATE": [
+    "orshet"
+  ],
+  "CRESCENT": [
+    "vukcas"
+  ],
+  "CREST": [
+    "zim"
+  ],
+  "CREVICE": [
+    "nun\u00F9r"
+  ],
+  "CREW": [
+    "ginet"
+  ],
+  "CRIMSON": [
+    "thestar"
+  ],
+  "CRITTER": [
+    "\u00EEstlig"
+  ],
+  "CROSS_ADJ": [
+    "gesul"
+  ],
+  "CROSS_NOUN": [
+    "metul"
+  ],
+  "CROSS_VERB": [
+    "than"
+  ],
+  "CROW": [
+    "ustir"
+  ],
+  "CROWD": [
+    "thad"
+  ],
+  "CROWN": [
+    "torish"
+  ],
+  "CRUCIFY": [
+    "memrut"
+  ],
+  "CRUEL": [
+    "luror"
+  ],
+  "CRUMBLE": [
+    "usal"
+  ],
+  "CRUSH": [
+    "\u00F4m"
+  ],
+  "CRUSHER": [
+    "angrir"
+  ],
+  "CRUX": [
+    "kifed"
+  ],
+  "CRY": [
+    "cagith"
+  ],
+  "CRYPT": [
+    "momuz"
+  ],
+  "CRYSTAL": [
+    "zas"
+  ],
+  "CUDDLE": [
+    "deshlir"
+  ],
+  "CUDGEL": [
+    "astesh"
+  ],
+  "CULMINATE": [
+    "avum"
+  ],
+  "CULT": [
+    "ngot\u00FBn"
+  ],
+  "CUNNING": [
+    "nakis"
+  ],
+  "CUP": [
+    "\u00F4fid"
+  ],
+  "CURIOUS": [
+    "kesham"
+  ],
+  "CURL": [
+    "amem"
+  ],
+  "CURSE": [
+    "mothram"
+  ],
+  "CUSP": [
+    "ishash"
+  ],
+  "CUT": [
+    "r\u00EDt"
+  ],
+  "CYCLONE": [
+    "tholest"
+  ],
+  "CYCLOPEAN": [
+    "nguteg"
+  ],
+  "CYST": [
+    "nolthag"
+  ],
+  "DABBLE": [
+    "gikut"
+  ],
+  "DAGGER": [
+    "urist"
+  ],
+  "DALE": [
+    "isos"
+  ],
+  "DANCE": [
+    "matul"
+  ],
+  "DANGER": [
+    "kezat"
+  ],
+  "DANGLE": [
+    "irtir"
+  ],
+  "DANK": [
+    "unul"
+  ],
+  "DARK": [
+    "umom"
+  ],
+  "DASH": [
+    "rutod"
+  ],
+  "DATE_FRUIT": [
+    "d\u00EBm"
+  ],
+  "DATE_VERB": [
+    "lodel"
+  ],
+  "DAUB": [
+    "ag"
+  ],
+  "DAWN": [
+    "kodor"
+  ],
+  "DAY": [
+    "alod"
+  ],
+  "DEAD": [
+    "n\u00F6kor"
+  ],
+  "DEAR": [
+    "asen"
+  ],
+  "DEARTH": [
+    "ukosh"
+  ],
+  "DEATH": [
+    "r\u00E5sh"
+  ],
+  "DECAY": [
+    "ursas"
+  ],
+  "DECEIVER": [
+    "vakun"
+  ],
+  "DECENT": [
+    "ethad"
+  ],
+  "DECIDE": [
+    "ros"
+  ],
+  "DECISIVE": [
+    "sestan"
+  ],
+  "DECLINE": [
+    "inir"
+  ],
+  "DEEP": [
+    "thol"
+  ],
+  "DEER": [
+    "kizbiz"
+  ],
+  "DEFECT FAULT": [
+    "al\u00FBth"
+  ],
+  "DEFEND": [
+    "nadak"
+  ],
+  "DEFENSE": [
+    "nirmek"
+  ],
+  "DEFERENCE": [
+    "\u00FBlmush"
+  ],
+  "DEIFY": [
+    "arbost"
+  ],
+  "DEITY": [
+    "mishar"
+  ],
+  "DELIGHT": [
+    "amith"
+  ],
+  "DELL": [
+    "oc\u00EEg"
+  ],
+  "DEMON": [
+    "uthg\u00FAr"
+  ],
+  "DEN": [
+    "lensham"
+  ],
+  "DENOMINATION": [
+    "miroth"
+  ],
+  "DENT": [
+    "geb"
+  ],
+  "DEPRESS SAD": [
+    "ozon"
+  ],
+  "DEPRESSION LOW": [
+    "ngegdol"
+  ],
+  "DEPTH": [
+    "amas"
+  ],
+  "DESERT": [
+    "zareth"
+  ],
+  "DESERTVERB": [
+    "galthor"
+  ],
+  "DESK": [
+    "nurom"
+  ],
+  "DESPAIR": [
+    "\u00F4nor"
+  ],
+  "DESSERT": [
+    "tislam"
+  ],
+  "DESTINY": [
+    "nam"
+  ],
+  "DESTROYER": [
+    "gar"
+  ],
+  "DESTRUCTION": [
+    "terstum"
+  ],
+  "DETERIORATE": [
+    "s\u00EEbosh"
+  ],
+  "DEVIANT": [
+    "manthul"
+  ],
+  "DEVIL": [
+    "zagith"
+  ],
+  "DEVIOUS": [
+    "sholkik"
+  ],
+  "DEVOURER": [
+    "noshtath"
+  ],
+  "DIAMOND": [
+    "doren"
+  ],
+  "DIGNITY": [
+    "zengod"
+  ],
+  "DIKE": [
+    "imush"
+  ],
+  "DIM": [
+    "ar\u00F6sh"
+  ],
+  "DIMENSION": [
+    "kar"
+  ],
+  "DIMINISH": [
+    "lunrud"
+  ],
+  "DIMPLE": [
+    "storlut"
+  ],
+  "DINE": [
+    "ub"
+  ],
+  "DINNER": [
+    "\u00F9k"
+  ],
+  "DIP": [
+    "bekar"
+  ],
+  "DIRECT": [
+    "\u00F4tthat"
+  ],
+  "DIRGE": [
+    "gethor"
+  ],
+  "DIRT": [
+    "amur"
+  ],
+  "DISAPPEAR": [
+    "ozleb"
+  ],
+  "DISCOVER": [
+    "thazor"
+  ],
+  "DISEMBOWEL": [
+    "gorroth"
+  ],
+  "DISEMBOWELMENT": [
+    "vashzud"
+  ],
+  "DISGUST": [
+    "shungmag"
+  ],
+  "DISH": [
+    "gan"
+  ],
+  "DISHONEST": [
+    "vetor"
+  ],
+  "DISLOYAL": [
+    "assog"
+  ],
+  "DISMAL": [
+    "nobang"
+  ],
+  "DISPERSE": [
+    "olum"
+  ],
+  "DISSOLVE": [
+    "etath"
+  ],
+  "DISTANCE": [
+    "ruth\u00F6sh"
+  ],
+  "DISTINCT": [
+    "tastrod"
+  ],
+  "DISTRACT ANNOY": [
+    "ashzos"
+  ],
+  "DISTRACTION GAME": [
+    "enten"
+  ],
+  "DISTRUST": [
+    "gingim"
+  ],
+  "DITCH": [
+    "minran"
+  ],
+  "DIVE": [
+    "shoduk"
+  ],
+  "DIVERSION GAME": [
+    "nomes"
+  ],
+  "DIVERT DETOUR": [
+    "birir"
+  ],
+  "DIVIDE": [
+    "lozlok"
+  ],
+  "DIVINE": [
+    "nabas"
+  ],
+  "DOCTRINE": [
+    "enas"
+  ],
+  "DOG": [
+    "idar"
+  ],
+  "DOMAIN": [
+    "r\u00F3th"
+  ],
+  "DOMESTIC": [
+    "rodnul"
+  ],
+  "DOMINATE": [
+    "akest"
+  ],
+  "DOMINION": [
+    "thun"
+  ],
+  "DONKEY": [
+    "nuggad"
+  ],
+  "DOOM": [
+    "okbod"
+  ],
+  "DOOR": [
+    "tun"
+  ],
+  "DOT": [
+    "sacat"
+  ],
+  "DOUR": [
+    "gom\u00F3m"
+  ],
+  "DOUSE": [
+    "rem"
+  ],
+  "DRAB": [
+    "bibar"
+  ],
+  "DRAGON": [
+    "m\u00E5mgoz"
+  ],
+  "DRAIN": [
+    "fak"
+  ],
+  "DRAWL": [
+    "ogon"
+  ],
+  "DREAD": [
+    "z\u00EAvut"
+  ],
+  "DREAM": [
+    "n\u00E5zom"
+  ],
+  "DREDGE": [
+    "avog"
+  ],
+  "DREG": [
+    "r\u00EBmrit"
+  ],
+  "DRENCH": [
+    "thikthog"
+  ],
+  "DRESS_CLOTHING": [
+    "stidest"
+  ],
+  "DRESS_GENERAL": [
+    "zag"
+  ],
+  "DRILL BORE": [
+    "monang"
+  ],
+  "DRILL ROUTINE": [
+    "thosbut"
+  ],
+  "DRINK": [
+    "\u00F3r"
+  ],
+  "DRINKER": [
+    "kosak"
+  ],
+  "DRIP": [
+    "sub"
+  ],
+  "DRIVE": [
+    "sterus"
+  ],
+  "DROOL": [
+    "shegum"
+  ],
+  "DROOP": [
+    "shuk"
+  ],
+  "DROPLET": [
+    "\u00F3both"
+  ],
+  "DROWNED": [
+    "addor"
+  ],
+  "DRUM": [
+    "talin"
+  ],
+  "DRUM VERB": [
+    "asd\u00FBg"
+  ],
+  "DRY": [
+    "zin"
+  ],
+  "DULL": [
+    "rumad"
+  ],
+  "DUMP": [
+    "\u00E5mmeb"
+  ],
+  "DUMPLING": [
+    "sakub"
+  ],
+  "DUNE": [
+    "astis"
+  ],
+  "DUNG": [
+    "tig"
+  ],
+  "DUNGEON": [
+    "edir"
+  ],
+  "DUSK": [
+    "tath"
+  ],
+  "DUST": [
+    "vesh"
+  ],
+  "DUTY": [
+    "etest"
+  ],
+  "DWELL": [
+    "kokeb"
+  ],
+  "DWELLING": [
+    "siknug"
+  ],
+  "DWINDLE": [
+    "\u00F4ler"
+  ],
+  "DYE": [
+    "at\u00EDr"
+  ],
+  "EAGLE": [
+    "lors\u00EFth"
+  ],
+  "EAR": [
+    "rir"
+  ],
+  "EARLY": [
+    "ed"
+  ],
+  "EARTH": [
+    "ber"
+  ],
+  "EAST": [
+    "em"
+  ],
+  "EAT": [
+    "deb"
+  ],
+  "ECHO": [
+    "s\u00E1rek"
+  ],
+  "ECRU": [
+    "utal"
+  ],
+  "ECTO": [
+    "shuthraz"
+  ],
+  "EEL": [
+    "\u00E8shgor"
+  ],
+  "EERIE": [
+    "r\u00F9kal"
+  ],
+  "EGG": [
+    "ac\u00F6b"
+  ],
+  "ELBOW": [
+    "mogshum"
+  ],
+  "ELDER": [
+    "okir"
+  ],
+  "ELEVATE": [
+    "tod\u00F6r"
+  ],
+  "EMANCIPATE": [
+    "kastol"
+  ],
+  "EMBRACE": [
+    "kurol"
+  ],
+  "EMERALD": [
+    "sedur"
+  ],
+  "EMPIRE": [
+    "thalal"
+  ],
+  "EMPTY": [
+    "kisat"
+  ],
+  "ENCHANT": [
+    "minbaz"
+  ],
+  "ENCHANTER": [
+    "zethruk"
+  ],
+  "END": [
+    "lush\u00F4n"
+  ],
+  "ENJOY": [
+    "nakas"
+  ],
+  "ENSORCEL": [
+    "miz\u00EAs"
+  ],
+  "ENTANGLE": [
+    "stistmig"
+  ],
+  "ENTRAILS": [
+    "arngish"
+  ],
+  "ENTRANCE": [
+    "kemsor"
+  ],
+  "ENTRANCE VERB": [
+    "desor"
+  ],
+  "ENTRY": [
+    "sefol"
+  ],
+  "EPIDEMIC": [
+    "sharast"
+  ],
+  "EQUAL": [
+    "tin\u00F6th"
+  ],
+  "EQUITY": [
+    "okin"
+  ],
+  "EQUIVALENCE": [
+    "maskir"
+  ],
+  "ERASE": [
+    "oth\u00F6r"
+  ],
+  "ESCORT": [
+    "ninur"
+  ],
+  "ESTEEM": [
+    "ostath"
+  ],
+  "ETERNAL": [
+    "zilir"
+  ],
+  "EUPHORIA": [
+    "r\u00E2mol"
+  ],
+  "EVAPORATE": [
+    "es\u00E4st"
+  ],
+  "EVEN": [
+    "d\u00E8g"
+  ],
+  "EVER": [
+    "im"
+  ],
+  "EVERLASTING": [
+    "\u00EFssun"
+  ],
+  "EVERSEEING": [
+    "ilus"
+  ],
+  "EVIL": [
+    "gedor"
+  ],
+  "EVISCERATE": [
+    "egst\u00E5k"
+  ],
+  "EVISCERATION": [
+    "ngilok"
+  ],
+  "EXALT": [
+    "thasdoth"
+  ],
+  "EXCAVATE": [
+    "zamnuth"
+  ],
+  "EXECUTE": [
+    "ramtak"
+  ],
+  "EXECUTIONER": [
+    "sombith"
+  ],
+  "EXIT": [
+    "onrel"
+  ],
+  "EXTRICATE": [
+    "ruzos"
+  ],
+  "EYE": [
+    "ker"
+  ],
+  "FABULOUS": [
+    "sankest"
+  ],
+  "FACE": [
+    "l\u00EEnem"
+  ],
+  "FACTION": [
+    "uzlir"
+  ],
+  "FADE": [
+    "\u00F6ndin"
+  ],
+  "FAIL": [
+    "ung\u00E8g"
+  ],
+  "FAINT INTENSITY": [
+    "losis"
+  ],
+  "FAINT VERB": [
+    "ildom"
+  ],
+  "FAIR COLOR": [
+    "angen"
+  ],
+  "FAIR EVEN": [
+    "an\u00FBz"
+  ],
+  "FAITH": [
+    "isul"
+  ],
+  "FAITH LOYALTY": [
+    "tabar"
+  ],
+  "FALL": [
+    "umid"
+  ],
+  "FALSE": [
+    "seth"
+  ],
+  "FAME": [
+    "belal"
+  ],
+  "FAMILY": [
+    "shan"
+  ],
+  "FAMINE": [
+    "sogdol"
+  ],
+  "FANCY": [
+    "lemlor"
+  ],
+  "FANCYVERB": [
+    "nefek"
+  ],
+  "FANG": [
+    "shis"
+  ],
+  "FARM": [
+    "ivom"
+  ],
+  "FASTEN": [
+    "thiz"
+  ],
+  "FAT": [
+    "er"
+  ],
+  "FATAL": [
+    "odroz"
+  ],
+  "FATE": [
+    "tarem"
+  ],
+  "FATHER": [
+    "urem"
+  ],
+  "FEALTY": [
+    "ston"
+  ],
+  "FEAR": [
+    "nist"
+  ],
+  "FEAST": [
+    "\u00F3dad"
+  ],
+  "FEED": [
+    "ked"
+  ],
+  "FELL CRUEL": [
+    "igrish"
+  ],
+  "FELL HIDE": [
+    "urus"
+  ],
+  "FELLOWSHIP": [
+    "riril"
+  ],
+  "FENCE": [
+    "ustuth"
+  ],
+  "FERAL": [
+    "ekzong"
+  ],
+  "FERN": [
+    "odkish"
+  ],
+  "FEROCITY": [
+    "nid\u00F2st"
+  ],
+  "FERRY": [
+    "roduk"
+  ],
+  "FESTIVAL": [
+    "korsid"
+  ],
+  "FETID": [
+    "lithrush"
+  ],
+  "FEVER": [
+    "dotir"
+  ],
+  "FIELD": [
+    "fikuk"
+  ],
+  "FIEND": [
+    "zotir"
+  ],
+  "FIERCE": [
+    "zikel"
+  ],
+  "FIGHT": [
+    "bardum"
+  ],
+  "FIGURE_OBJECT": [
+    "vutok"
+  ],
+  "FILTH": [
+    "zik\u00E2th"
+  ],
+  "FIN": [
+    "stagshil"
+  ],
+  "FIND": [
+    "at\u00F6l"
+  ],
+  "FINGER": [
+    "\u00F3k"
+  ],
+  "FIRE": [
+    "ziril"
+  ],
+  "FIRST": [
+    "uthar"
+  ],
+  "FISH_ANIMAL": [
+    "tatlosh"
+  ],
+  "FISH_VERB": [
+    "ngitkar"
+  ],
+  "FISSURE": [
+    "rerras"
+  ],
+  "FIST": [
+    "dur"
+  ],
+  "FLAG": [
+    "solon"
+  ],
+  "FLAME": [
+    "keshan"
+  ],
+  "FLANK": [
+    "ned"
+  ],
+  "FLANK VERB": [
+    "lesast"
+  ],
+  "FLARE": [
+    "thabost"
+  ],
+  "FLASH": [
+    "asiz"
+  ],
+  "FLAX": [
+    "engig"
+  ],
+  "FLAY": [
+    "gonggash"
+  ],
+  "FLEA": [
+    "eststek"
+  ],
+  "FLECK": [
+    "astan"
+  ],
+  "FLESH": [
+    "ar"
+  ],
+  "FLICKER": [
+    "n\u00EBlas"
+  ],
+  "FLIGHT": [
+    "vuthil"
+  ],
+  "FLIGHTY": [
+    "rers\u00EEr"
+  ],
+  "FLIMSY": [
+    "tetist"
+  ],
+  "FLINCH": [
+    "sof\u00FBsh"
+  ],
+  "FLING": [
+    "\u00EBtul"
+  ],
+  "FLOOD": [
+    "l\u00E5luth"
+  ],
+  "FLOOR": [
+    "dakost"
+  ],
+  "FLOWER": [
+    "totmon"
+  ],
+  "FLUKE": [
+    "omet"
+  ],
+  "FLUSH": [
+    "ireg"
+  ],
+  "FLUTE": [
+    "bem"
+  ],
+  "FLY_ANIMAL": [
+    "fenglel"
+  ],
+  "FLY_VERB": [
+    "gigin"
+  ],
+  "FOCUS": [
+    "atham"
+  ],
+  "FOG": [
+    "amug"
+  ],
+  "FOLD": [
+    "ost"
+  ],
+  "FONDLE": [
+    "gatiz"
+  ],
+  "FOOL": [
+    "cabnul"
+  ],
+  "FOOT": [
+    "nog"
+  ],
+  "FORD": [
+    "atul"
+  ],
+  "FOREST": [
+    "fotthor"
+  ],
+  "FOREVER": [
+    "nalish"
+  ],
+  "FORK": [
+    "\u00ECltang"
+  ],
+  "FORTIFY": [
+    "dumed"
+  ],
+  "FORTRESS": [
+    "geshud"
+  ],
+  "FORTUITOUS": [
+    "g\u00EFsstir"
+  ],
+  "FORTUNE LUCK": [
+    "akam"
+  ],
+  "FORTUNE WEALTH": [
+    "osram"
+  ],
+  "FOUNTAIN": [
+    "zefon"
+  ],
+  "FRAGILE": [
+    "inglaz"
+  ],
+  "FRAGMENT": [
+    "\u00E9zneth"
+  ],
+  "FRAGRANCE": [
+    "shos\u00EAl"
+  ],
+  "FRAME": [
+    "tiklom"
+  ],
+  "FRAY": [
+    "\u00EFsir"
+  ],
+  "FRECKLE": [
+    "rabed"
+  ],
+  "FREE": [
+    "eshim"
+  ],
+  "FREEZE": [
+    "gishdist"
+  ],
+  "FRENZY": [
+    "lumash"
+  ],
+  "FRESH": [
+    "emet"
+  ],
+  "FRIEND": [
+    "babin"
+  ],
+  "FRIGHT": [
+    "shasar"
+  ],
+  "FRIGID": [
+    "ishol"
+  ],
+  "FRILL": [
+    "th\u00EEdas"
+  ],
+  "FROG": [
+    "enog"
+  ],
+  "FROST": [
+    "nisgak"
+  ],
+  "FROTH": [
+    "gulgun"
+  ],
+  "FRUIT": [
+    "dozeb"
+  ],
+  "FUCHSIA": [
+    "sunggor"
+  ],
+  "FULL": [
+    "esmul"
+  ],
+  "FUNERAL": [
+    "baros"
+  ],
+  "FUNGUS": [
+    "muz"
+  ],
+  "FUR": [
+    "\u00E2st"
+  ],
+  "FURNACE": [
+    "sarvesh"
+  ],
+  "FURY": [
+    "thusest"
+  ],
+  "FUTURE": [
+    "zalud"
+  ],
+  "GALE": [
+    "vutram"
+  ],
+  "GALL": [
+    "dushig"
+  ],
+  "GALLERY": [
+    "shol\u00E8b"
+  ],
+  "GALLEY": [
+    "deg\u00EBl"
+  ],
+  "GALLOWS": [
+    "s\u00EFsal"
+  ],
+  "GAME": [
+    "bakat"
+  ],
+  "GANG": [
+    "ins\u00E9l"
+  ],
+  "GARISH": [
+    "shistat"
+  ],
+  "GARLIC": [
+    "goral"
+  ],
+  "GARNISH": [
+    "k\u00E8bmak"
+  ],
+  "GATE": [
+    "inod"
+  ],
+  "GAUNT": [
+    "zisur"
+  ],
+  "GAZE": [
+    "list"
+  ],
+  "GEAR": [
+    "olon"
+  ],
+  "GEM": [
+    "kad\u00F4l"
+  ],
+  "GENERAL": [
+    "g\u00E4rem"
+  ],
+  "GENIUS": [
+    "kast"
+  ],
+  "GERBIL": [
+    "\u00EBrtong"
+  ],
+  "GHOST": [
+    "ngotol"
+  ],
+  "GHOUL": [
+    "kolad"
+  ],
+  "GIFT": [
+    "egen"
+  ],
+  "GILD": [
+    "oltar"
+  ],
+  "GILL": [
+    "r\u00FAbal"
+  ],
+  "GIRDER": [
+    "thob"
+  ],
+  "GIRDLE": [
+    "gintar"
+  ],
+  "GIRL": [
+    "saruth"
+  ],
+  "GLACIER": [
+    "usir"
+  ],
+  "GLAD": [
+    "amkin"
+  ],
+  "GLADE": [
+    "atzul"
+  ],
+  "GLAND": [
+    "figul"
+  ],
+  "GLAZE": [
+    "fikod"
+  ],
+  "GLEAM": [
+    "alm\u00F4sh"
+  ],
+  "GLEE": [
+    "\u00E0lil"
+  ],
+  "GLEN": [
+    "bebmal"
+  ],
+  "GLIDE": [
+    "bavast"
+  ],
+  "GLIMMER": [
+    "k\u00E5tdir"
+  ],
+  "GLISTEN": [
+    "\u00E9thes"
+  ],
+  "GLITTER": [
+    "eser"
+  ],
+  "GLOOM": [
+    "vumshar"
+  ],
+  "GLORY": [
+    "anil"
+  ],
+  "GLOSS": [
+    "igest"
+  ],
+  "GLOVE": [
+    "reg"
+  ],
+  "GLOW": [
+    "rab"
+  ],
+  "GLUM": [
+    "ngobol"
+  ],
+  "GLUTTON": [
+    "ubur"
+  ],
+  "GNARLED": [
+    "l\u00F6bor"
+  ],
+  "GOAD": [
+    "desgir"
+  ],
+  "GOAL": [
+    "kat"
+  ],
+  "GOAT": [
+    "belbez"
+  ],
+  "GOD": [
+    "n\u00F2m"
+  ],
+  "GOD-FORSAKEN": [
+    "bunsoth"
+  ],
+  "GOLD": [
+    "limul"
+  ],
+  "GOLDENROD": [
+    "thistun"
+  ],
+  "GOO": [
+    "igang"
+  ],
+  "GOOD": [
+    "eshon"
+  ],
+  "GOOSE": [
+    "kurig"
+  ],
+  "GORE": [
+    "ugzol"
+  ],
+  "GORE NOUN": [
+    "dedros"
+  ],
+  "GORGE_NOUN": [
+    "erib"
+  ],
+  "GORGE_VERB": [
+    "\u00EEgam"
+  ],
+  "GRAIN": [
+    "mas"
+  ],
+  "GRAND": [
+    "zugob"
+  ],
+  "GRANITE": [
+    "lolok"
+  ],
+  "GRAPE": [
+    "mashus"
+  ],
+  "GRASP": [
+    "g\u00EDdthur"
+  ],
+  "GRASS": [
+    "isin"
+  ],
+  "GRAVE": [
+    "mond\u00FBl"
+  ],
+  "GRAVEL": [
+    "as\u00EBn"
+  ],
+  "GRAY": [
+    "bel"
+  ],
+  "GREASE": [
+    "siz"
+  ],
+  "GREAT": [
+    "sar\u00E0m"
+  ],
+  "GREATER": [
+    "riras"
+  ],
+  "GREATEST": [
+    "t\u00F6ras"
+  ],
+  "GREED": [
+    "dal"
+  ],
+  "GREEN": [
+    "omer"
+  ],
+  "GRIEF": [
+    "nothis"
+  ],
+  "GRIFFON": [
+    "sumun"
+  ],
+  "GRILL": [
+    "gommuk"
+  ],
+  "GRIM": [
+    "usith"
+  ],
+  "GRIND": [
+    "nerrid"
+  ],
+  "GRIP": [
+    "z\u00E1god"
+  ],
+  "GRISTLE": [
+    "mithmis"
+  ],
+  "GRIZZLE": [
+    "enol"
+  ],
+  "GROOVE": [
+    "edt\u00FBl"
+  ],
+  "GROSS": [
+    "th\u00F3lthod"
+  ],
+  "GROTTO": [
+    "uzar"
+  ],
+  "GROUP": [
+    "tom\u00EAm"
+  ],
+  "GROVE": [
+    "mun\u00E8st"
+  ],
+  "GROW": [
+    "bol"
+  ],
+  "GROWL": [
+    "\u00FBz"
+  ],
+  "GROWTH": [
+    "b\u00E5l"
+  ],
+  "GRUB": [
+    "sitheb"
+  ],
+  "GUARD": [
+    "duthnur"
+  ],
+  "GUILD": [
+    "domas"
+  ],
+  "GUILE": [
+    "ilb\u00E5d"
+  ],
+  "GUILT": [
+    "lush\u00FBt"
+  ],
+  "GUISE": [
+    "rurast"
+  ],
+  "GULF DISTANCE": [
+    "astod"
+  ],
+  "GULF PIT": [
+    "thabum"
+  ],
+  "GULF SEA": [
+    "nol\u00EAth"
+  ],
+  "GULLY": [
+    "eggut"
+  ],
+  "GURGLE": [
+    "sodzul"
+  ],
+  "GUT": [
+    "suton"
+  ],
+  "GUTTER": [
+    "nuglush"
+  ],
+  "HABIT": [
+    "\u00F3ruk"
+  ],
+  "HAG": [
+    "ulthush"
+  ],
+  "HAIL GREET": [
+    "\u00EFlun"
+  ],
+  "HAIL ICE": [
+    "r\u00E2luk"
+  ],
+  "HAIR": [
+    "razes"
+  ],
+  "HAIRY": [
+    "bist\u00F6k"
+  ],
+  "HALE": [
+    "vosut"
+  ],
+  "HALL": [
+    "\u00EEton"
+  ],
+  "HAME": [
+    "\u00E8zum"
+  ],
+  "HAMMER": [
+    "nil"
+  ],
+  "HAMMERER": [
+    "\u00F9nil"
+  ],
+  "HAND": [
+    "otad"
+  ],
+  "HANDLE OBJECT": [
+    "erush"
+  ],
+  "HANDLE VERB": [
+    "shameb"
+  ],
+  "HANDY": [
+    "oddet"
+  ],
+  "HARDY": [
+    "ifin"
+  ],
+  "HARE": [
+    "thetdel"
+  ],
+  "HARMONY": [
+    "thir"
+  ],
+  "HARSH": [
+    "gethust"
+  ],
+  "HARVEST": [
+    "golud"
+  ],
+  "HARVEST_VERB": [
+    "\u00FBd"
+  ],
+  "HATCHET": [
+    "kadol"
+  ],
+  "HATE": [
+    "lur"
+  ],
+  "HATRED": [
+    "vath"
+  ],
+  "HAUNT": [
+    "dumur"
+  ],
+  "HAWK": [
+    "akn\u00FBn"
+  ],
+  "HAY": [
+    "otel"
+  ],
+  "HAZE": [
+    "mis"
+  ],
+  "HEAD": [
+    "ser"
+  ],
+  "HEAL": [
+    "ikal"
+  ],
+  "HEALING": [
+    "ilon"
+  ],
+  "HEART": [
+    "zanor"
+  ],
+  "HEARTH": [
+    "ur"
+  ],
+  "HEAT": [
+    "v\u00FAsh"
+  ],
+  "HEATHER": [
+    "bokbon"
+  ],
+  "HEAVEN": [
+    "das\u00EBl"
+  ],
+  "HEAVY": [
+    "danman"
+  ],
+  "HEDGE": [
+    "\u00E8fim"
+  ],
+  "HEGEMON": [
+    "dok"
+  ],
+  "HELIOTROPE": [
+    "k\u00F6shdes"
+  ],
+  "HELL": [
+    "shash"
+  ],
+  "HELM": [
+    "zon"
+  ],
+  "HELP": [
+    "usen"
+  ],
+  "HERMIT": [
+    "oshosh"
+  ],
+  "HERO": [
+    "obur"
+  ],
+  "HEX": [
+    "banik"
+  ],
+  "HIDE": [
+    "seb\u00EFr"
+  ],
+  "HIDEOUS": [
+    "lirlez"
+  ],
+  "HIGH": [
+    "erlin"
+  ],
+  "HILL": [
+    "inen"
+  ],
+  "HIP": [
+    "\u00E5m\u00E2t"
+  ],
+  "HOARY": [
+    "goster"
+  ],
+  "HOBBLE": [
+    "kunon"
+  ],
+  "HOG": [
+    "tarag"
+  ],
+  "HOIST": [
+    "lilum"
+  ],
+  "HOLD": [
+    "kegeth"
+  ],
+  "HOLE": [
+    "oggez"
+  ],
+  "HOLLOW": [
+    "ugosh"
+  ],
+  "HOLY": [
+    "kiron"
+  ],
+  "HOMAGE": [
+    "r\u00EDbar"
+  ],
+  "HOME": [
+    "bom"
+  ],
+  "HOMELY": [
+    "nakbab"
+  ],
+  "HONEST": [
+    "gadan"
+  ],
+  "HONEY": [
+    "stet\u00E1r"
+  ],
+  "HONOR": [
+    "dural"
+  ],
+  "HOOD": [
+    "sikel"
+  ],
+  "HOOF": [
+    "unnos"
+  ],
+  "HOPE": [
+    "zanos"
+  ],
+  "HOP_NOUN": [
+    "kisul"
+  ],
+  "HOP_VERB": [
+    "ikus"
+  ],
+  "HORN": [
+    "sheget"
+  ],
+  "HORROR": [
+    "kozoth"
+  ],
+  "HORSE": [
+    "famthut"
+  ],
+  "HOUND": [
+    "rorung"
+  ],
+  "HOUR": [
+    "nal"
+  ],
+  "HOUSE": [
+    "zoden"
+  ],
+  "HOVEL": [
+    "imbit"
+  ],
+  "HOWL": [
+    "idor"
+  ],
+  "HUG": [
+    "enur"
+  ],
+  "HUM": [
+    "kur"
+  ],
+  "HUMBLE": [
+    "vir"
+  ],
+  "HUMID": [
+    "k\u00E0lreth"
+  ],
+  "HUMOR": [
+    "alek"
+  ],
+  "HUNGER": [
+    "fok\u00E1sh"
+  ],
+  "HURRICANE": [
+    "tharith"
+  ],
+  "HUSH": [
+    "thibam"
+  ],
+  "HUSTLE": [
+    "vostaz"
+  ],
+  "HUT": [
+    "tazuk"
+  ],
+  "ICE": [
+    "ushil"
+  ],
+  "IDLE": [
+    "gum\u00F9r"
+  ],
+  "IDOL": [
+    "ular"
+  ],
+  "IGNITE": [
+    "anist"
+  ],
+  "IGNOBLE": [
+    "mimkot"
+  ],
+  "IGNORANT": [
+    "nizdast"
+  ],
+  "ILL": [
+    "enen"
+  ],
+  "IMAGE": [
+    "gireth"
+  ],
+  "IMMORAL": [
+    "osstam"
+  ],
+  "IMMORALITY": [
+    "ngithol"
+  ],
+  "IMMORTAL": [
+    "kudar"
+  ],
+  "IMMORTALITY": [
+    "azoth"
+  ],
+  "IMPALE": [
+    "st\u00F2k\u00EFd"
+  ],
+  "IMPERVIOUS": [
+    "kad\u00E4n"
+  ],
+  "IMPRISON": [
+    "ushesh"
+  ],
+  "IMPUNITY": [
+    "sharul"
+  ],
+  "IMPURE": [
+    "gosh\u00EEst"
+  ],
+  "INCENSE": [
+    "\u00E2zkob"
+  ],
+  "INCH": [
+    "meb"
+  ],
+  "INCIDENTAL": [
+    "dalem"
+  ],
+  "INCINERATE": [
+    "\u00F2rdir"
+  ],
+  "INCONSIDERATE": [
+    "mengthul"
+  ],
+  "INCONVENIENT": [
+    "th\u00EAmnol"
+  ],
+  "INDIGNATION": [
+    "luskal"
+  ],
+  "INDIGO": [
+    "mishim"
+  ],
+  "INFALLIBLE": [
+    "tellist"
+  ],
+  "INFAMY": [
+    "sedish"
+  ],
+  "INFECT": [
+    "av\u00FBsh"
+  ],
+  "INFERIOR": [
+    "gemis"
+  ],
+  "INFERNO": [
+    "duthtish"
+  ],
+  "INFINITE": [
+    "\u00EAr"
+  ],
+  "INFLUENCE": [
+    "immast"
+  ],
+  "INK": [
+    "likot"
+  ],
+  "INN": [
+    "st\u00EBtnin"
+  ],
+  "INNOCENT": [
+    "et\u00F3m"
+  ],
+  "INSANITY": [
+    "zarut"
+  ],
+  "INSECT": [
+    "lased"
+  ],
+  "INSENSITIVE": [
+    "ethzuth"
+  ],
+  "INSIGHT": [
+    "l\u00FBk"
+  ],
+  "INTENSE": [
+    "rinul"
+  ],
+  "INTRICATE": [
+    "izkil"
+  ],
+  "INVISIBLE": [
+    "nelzur"
+  ],
+  "IRON": [
+    "datan"
+  ],
+  "ISLAND": [
+    "gulnas"
+  ],
+  "ITCH": [
+    "tabmik"
+  ],
+  "IVORY": [
+    "sosad"
+  ],
+  "IVY": [
+    "rinal"
+  ],
+  "JACK": [
+    "ebgok"
+  ],
+  "JACKAL": [
+    "soshosh"
+  ],
+  "JADE": [
+    "otil"
+  ],
+  "JAIL": [
+    "teskom"
+  ],
+  "JAILER": [
+    "fastam"
+  ],
+  "JAUNDICE": [
+    "bukshon"
+  ],
+  "JAW": [
+    "st\u00EEgil"
+  ],
+  "JEST": [
+    "lumen"
+  ],
+  "JEWEL": [
+    "istrath"
+  ],
+  "JOIN": [
+    "etas"
+  ],
+  "JOKE": [
+    "maton"
+  ],
+  "JOY": [
+    "ilir"
+  ],
+  "JUDGE": [
+    "zatthud"
+  ],
+  "JUGGLE": [
+    "abol"
+  ],
+  "JUICE": [
+    "cim"
+  ],
+  "JUMP": [
+    "m\u00E2tzang"
+  ],
+  "JUNGLE": [
+    "egath"
+  ],
+  "JUST": [
+    "imketh"
+  ],
+  "JUSTIFY": [
+    "ilned"
+  ],
+  "KEEPER": [
+    "zuden"
+  ],
+  "KEG": [
+    "emtan"
+  ],
+  "KEY": [
+    "ed\u00EBm"
+  ],
+  "KILLER": [
+    "vag\u00FAsh"
+  ],
+  "KIN": [
+    "ellest"
+  ],
+  "KINDLE": [
+    "stizash"
+  ],
+  "KINDNESS": [
+    "nos\u00EEm"
+  ],
+  "KING": [
+    "etar"
+  ],
+  "KINGDOM": [
+    "osor"
+  ],
+  "KISS": [
+    "alis"
+  ],
+  "KNEAD": [
+    "inshot"
+  ],
+  "KNIFE": [
+    "zasit"
+  ],
+  "KNIGHT": [
+    "arzes"
+  ],
+  "KNIT": [
+    "\u00E4bor"
+  ],
+  "KNOT": [
+    "oth"
+  ],
+  "KNOW": [
+    "musar"
+  ],
+  "KNOWLEDGE": [
+    "misttar"
+  ],
+  "LABOR": [
+    "\u00E8rith"
+  ],
+  "LABYRINTH": [
+    "lumnum"
+  ],
+  "LACE": [
+    "vakist"
+  ],
+  "LACONIC": [
+    "elol"
+  ],
+  "LAKE": [
+    "ner"
+  ],
+  "LAMB": [
+    "neb\u00EFn"
+  ],
+  "LAMENT": [
+    "ral\u00E2th"
+  ],
+  "LANCE": [
+    "k\u00FBbuk"
+  ],
+  "LANCER": [
+    "kivish"
+  ],
+  "LAND": [
+    "n\u00EFr"
+  ],
+  "LANGUAGE": [
+    "talul"
+  ],
+  "LANGUISH": [
+    "merrang"
+  ],
+  "LANTERN": [
+    "udil"
+  ],
+  "LARD": [
+    "bul"
+  ],
+  "LARGE": [
+    "or"
+  ],
+  "LARK": [
+    "\u00ECddor"
+  ],
+  "LARVA": [
+    "onam"
+  ],
+  "LASH": [
+    "meng"
+  ],
+  "LAST": [
+    "ulol"
+  ],
+  "LATE": [
+    "et"
+  ],
+  "LATHER": [
+    "anban"
+  ],
+  "LAUD": [
+    "g\u00E9bar"
+  ],
+  "LAVENDER": [
+    "ngefel"
+  ],
+  "LAW": [
+    "toral"
+  ],
+  "LAZY": [
+    "omoth"
+  ],
+  "LEADER": [
+    "erar"
+  ],
+  "LEAF": [
+    "govos"
+  ],
+  "LEAGUE GROUP": [
+    "ilash"
+  ],
+  "LEAK": [
+    "orab"
+  ],
+  "LEAN": [
+    "dalkam"
+  ],
+  "LEAP": [
+    "tag\u00F9z"
+  ],
+  "LEARN": [
+    "turel"
+  ],
+  "LEAST": [
+    "gudos"
+  ],
+  "LEECH": [
+    "subol"
+  ],
+  "LEGEND": [
+    "gomath"
+  ],
+  "LEMON": [
+    "uleb"
+  ],
+  "LENS": [
+    "cerol"
+  ],
+  "LEOPARD": [
+    "mingkil"
+  ],
+  "LEPER": [
+    "detthost"
+  ],
+  "LEPROSY": [
+    "rerik"
+  ],
+  "LESION": [
+    "rim\u00EDs"
+  ],
+  "LESSEN": [
+    "gudid"
+  ],
+  "LESSER": [
+    "gekur"
+  ],
+  "LESSON": [
+    "kashez"
+  ],
+  "LETTER": [
+    "lolor"
+  ],
+  "LIBERATE": [
+    "omt\u00E4l"
+  ],
+  "LIBERTY": [
+    "eren"
+  ],
+  "LIBRARY": [
+    "koshosh"
+  ],
+  "LIE": [
+    "os"
+  ],
+  "LIFE": [
+    "thunen"
+  ],
+  "LIGHT": [
+    "istam"
+  ],
+  "LIGHTNING": [
+    "giken"
+  ],
+  "LILAC": [
+    "n\u00E1shas"
+  ],
+  "LIMB": [
+    "od"
+  ],
+  "LIME": [
+    "r\u00F4mab"
+  ],
+  "LIMP": [
+    "dithbish"
+  ],
+  "LIMPVERB": [
+    "gabet"
+  ],
+  "LINE": [
+    "vel"
+  ],
+  "LION": [
+    "kurel"
+  ],
+  "LIP": [
+    "mengmad"
+  ],
+  "LISTEN": [
+    "\u00E2mid"
+  ],
+  "LITTLE": [
+    "tokmek"
+  ],
+  "LIVID": [
+    "azzin"
+  ],
+  "LIZARD": [
+    "bungek"
+  ],
+  "LOAF": [
+    "thistus"
+  ],
+  "LOBSTER": [
+    "zedot"
+  ],
+  "LOCK": [
+    "thak"
+  ],
+  "LOCK HAIR": [
+    "dolil"
+  ],
+  "LONE": [
+    "tet\u00F3th"
+  ],
+  "LONELY": [
+    "nimem"
+  ],
+  "LONESOME": [
+    "numol"
+  ],
+  "LONG": [
+    "romek"
+  ],
+  "LOOT": [
+    "utir"
+  ],
+  "LORD": [
+    "\u00EFlul"
+  ],
+  "LOST": [
+    "uleng"
+  ],
+  "LOUSE": [
+    "sosmil"
+  ],
+  "LOVE": [
+    "aval"
+  ],
+  "LOVER": [
+    "evon"
+  ],
+  "LOW": [
+    "lush\u00F2b"
+  ],
+  "LOYAL": [
+    "dam\u00E8l"
+  ],
+  "LUCID": [
+    "ekir"
+  ],
+  "LUCK": [
+    "merseth"
+  ],
+  "LULL": [
+    "uvar"
+  ],
+  "LULL MISLEAD": [
+    "\u00ECnal"
+  ],
+  "LUNCH": [
+    "asin"
+  ],
+  "LUNG": [
+    "vunom"
+  ],
+  "LURCH": [
+    "gukil"
+  ],
+  "LURE": [
+    "lektad"
+  ],
+  "LURID": [
+    "vurtib"
+  ],
+  "LURK": [
+    "dimol"
+  ],
+  "LUSH": [
+    "lelgas"
+  ],
+  "LUST": [
+    "nethg\u00F6n"
+  ],
+  "LUSTER": [
+    "suvas"
+  ],
+  "LUTE": [
+    "itur"
+  ],
+  "LUXURY": [
+    "ertal"
+  ],
+  "LYRIC": [
+    "avan"
+  ],
+  "MACHINE": [
+    "st\u00E2kud"
+  ],
+  "MAGGOT": [
+    "mingus"
+  ],
+  "MAGIC": [
+    "aroth"
+  ],
+  "MAGICIAN": [
+    "l\u00E5rul"
+  ],
+  "MAHOGANY": [
+    "sezom"
+  ],
+  "MALICE": [
+    "ezost"
+  ],
+  "MALIGN ADJ": [
+    "tustzal"
+  ],
+  "MALIGN SLANDER V": [
+    "tongus"
+  ],
+  "MALIGNANT": [
+    "k\u00F9gneb"
+  ],
+  "MALODOROUS": [
+    "sutung"
+  ],
+  "MAN": [
+    "udos"
+  ],
+  "MANGE": [
+    "imust"
+  ],
+  "MANOR": [
+    "deduk"
+  ],
+  "MANSION": [
+    "m\u00FBthkat"
+  ],
+  "MANY": [
+    "sh\u00E0mman"
+  ],
+  "MARBLE BALL": [
+    "urir"
+  ],
+  "MARK": [
+    "lised"
+  ],
+  "MARKET": [
+    "rilbet"
+  ],
+  "MAROON_COLOR": [
+    "shashdon"
+  ],
+  "MARSH": [
+    "rinmol"
+  ],
+  "MARTYR": [
+    "muzish"
+  ],
+  "MASSIVE": [
+    "zansong"
+  ],
+  "MASTER": [
+    "k\u00F4n"
+  ],
+  "MASTERY": [
+    "athn\u00EEr"
+  ],
+  "MATCH CONTEST": [
+    "dalzat"
+  ],
+  "MATCH EQUAL": [
+    "tad"
+  ],
+  "MAUVE": [
+    "m\u00EBbnith"
+  ],
+  "MAW": [
+    "stul"
+  ],
+  "MAZE": [
+    "\u00F4sed"
+  ],
+  "MEAD": [
+    "thash"
+  ],
+  "MEADOW": [
+    "kenis"
+  ],
+  "MEAL_DOM": [
+    "fathkal"
+  ],
+  "MEAL_GROUND": [
+    "inob"
+  ],
+  "MEAN LOW": [
+    "\u00FBbom"
+  ],
+  "MEAN NASTY": [
+    "fashuk"
+  ],
+  "MEANDER": [
+    "ablish"
+  ],
+  "MEAT": [
+    "igril"
+  ],
+  "MECHANISM": [
+    "b\u00EBmbul"
+  ],
+  "MEDICINE": [
+    "zalstom"
+  ],
+  "MEDITATION": [
+    "an"
+  ],
+  "MEET": [
+    "lar"
+  ],
+  "MELLOW": [
+    "unob"
+  ],
+  "MELT": [
+    "kalal"
+  ],
+  "MEMORY": [
+    "gidur"
+  ],
+  "MENACE": [
+    "nalthish"
+  ],
+  "MERCHANT": [
+    "asmel"
+  ],
+  "MERGE": [
+    "kir"
+  ],
+  "MESH": [
+    "zithis"
+  ],
+  "MESS": [
+    "ost\u00EBsh"
+  ],
+  "MESSIAH": [
+    "milol"
+  ],
+  "METAL": [
+    "kel"
+  ],
+  "METEOR": [
+    "kesting"
+  ],
+  "MIDNIGHT": [
+    "eddaz"
+  ],
+  "MIGHTINESS": [
+    "ar\u00E2l"
+  ],
+  "MIGHTY": [
+    "ekur"
+  ],
+  "MILE": [
+    "shar"
+  ],
+  "MINCE": [
+    "rimuk"
+  ],
+  "MIND": [
+    "ottan"
+  ],
+  "MINE": [
+    "avuz"
+  ],
+  "MINION": [
+    "shagul"
+  ],
+  "MINT": [
+    "gitnuk"
+  ],
+  "MIRE": [
+    "sebshos"
+  ],
+  "MIRROR": [
+    "\u00F2nul"
+  ],
+  "MIRTH": [
+    "l\u00EAgan"
+  ],
+  "MISCHIEF": [
+    "cemosh"
+  ],
+  "MISERY": [
+    "egeth"
+  ],
+  "MIST": [
+    "s\u00F4d"
+  ],
+  "MITE": [
+    "dusak"
+  ],
+  "MOB": [
+    "odg\u00FAb"
+  ],
+  "MODEST": [
+    "\u00E8rnam"
+  ],
+  "MOIST": [
+    "idash"
+  ],
+  "MOLD": [
+    "ovus"
+  ],
+  "MOLE": [
+    "gom\u00F2k"
+  ],
+  "MOLTEN": [
+    "stesok"
+  ],
+  "MOMENT": [
+    "othduk"
+  ],
+  "MOMENTOUS": [
+    "zavaz"
+  ],
+  "MONASTERY": [
+    "thulom"
+  ],
+  "MONGER": [
+    "od\u00EAs"
+  ],
+  "MONGREL": [
+    "fevil"
+  ],
+  "MONK": [
+    "evud"
+  ],
+  "MONKEY": [
+    "vank\u00E5b"
+  ],
+  "MONSTER": [
+    "ushang"
+  ],
+  "MOON": [
+    "\u00EFlon"
+  ],
+  "MOP": [
+    "ushlub"
+  ],
+  "MORAL": [
+    "tumam"
+  ],
+  "MORALITY": [
+    "othud"
+  ],
+  "MORASS": [
+    "ogtum"
+  ],
+  "MORNING": [
+    "san\u00E1d"
+  ],
+  "MOROSE": [
+    "edn\u00E0d"
+  ],
+  "MORSEL": [
+    "midil"
+  ],
+  "MORTAL": [
+    "tunom"
+  ],
+  "MORTALITY": [
+    "tadar"
+  ],
+  "MORTIFY": [
+    "osresh"
+  ],
+  "MOSS": [
+    "daros"
+  ],
+  "MOST": [
+    "tel"
+  ],
+  "MOTH": [
+    "alen"
+  ],
+  "MOTHER": [
+    "bobrur"
+  ],
+  "MOUNTAIN": [
+    "onol"
+  ],
+  "MOURN": [
+    "leshal"
+  ],
+  "MOUSE": [
+    "stoling"
+  ],
+  "MOUTH": [
+    "dum"
+  ],
+  "MUCK": [
+    "zagstok"
+  ],
+  "MUCUS": [
+    "godum"
+  ],
+  "MUD": [
+    "ol"
+  ],
+  "MUDDLE": [
+    "shislug"
+  ],
+  "MUFFIN": [
+    "gatis"
+  ],
+  "MULE": [
+    "udler"
+  ],
+  "MUNCH": [
+    "adesh"
+  ],
+  "MURDER": [
+    "us\u00E2n"
+  ],
+  "MURK": [
+    "bothon"
+  ],
+  "MUSCLE": [
+    "thum"
+  ],
+  "MUSH": [
+    "kavud"
+  ],
+  "MUSHROOM": [
+    "kirun"
+  ],
+  "MUSIC": [
+    "shasad"
+  ],
+  "MUSTY": [
+    "arrug"
+  ],
+  "MUTE": [
+    "rul"
+  ],
+  "MYSTERY": [
+    "shoveth"
+  ],
+  "MYTH": [
+    "lathon"
+  ],
+  "NADIR": [
+    "lim\u00FAr"
+  ],
+  "NAIL": [
+    "um"
+  ],
+  "NAME": [
+    "kab"
+  ],
+  "NARROW": [
+    "dast"
+  ],
+  "NASTY": [
+    "thubil"
+  ],
+  "NATION": [
+    "solam"
+  ],
+  "NATURE": [
+    "egom"
+  ],
+  "NAUGHTY": [
+    "k\u00EAdnath"
+  ],
+  "NECRO": [
+    "ugith"
+  ],
+  "NEGATE": [
+    "kez"
+  ],
+  "NEGATIVE": [
+    "ngutug"
+  ],
+  "NEO": [
+    "l\u00E4rim"
+  ],
+  "NEST": [
+    "ik\u00FBl"
+  ],
+  "NESTLE": [
+    "semtom"
+  ],
+  "NET": [
+    "kib"
+  ],
+  "NETTLE": [
+    "rotik"
+  ],
+  "NEUTRAL": [
+    "ital"
+  ],
+  "NEUTRALIZE": [
+    "necak"
+  ],
+  "NEVER": [
+    "nanoth"
+  ],
+  "NEW": [
+    "ir"
+  ],
+  "NEWT": [
+    "stos\u00EAth"
+  ],
+  "NIBBLE": [
+    "kezol"
+  ],
+  "NIGHT": [
+    "anan"
+  ],
+  "NIGHTMARE": [
+    "disuth"
+  ],
+  "NOBLE": [
+    "r\u00EEthol"
+  ],
+  "NOISELESS": [
+    "zaled"
+  ],
+  "NOOSE": [
+    "tezul"
+  ],
+  "NORTH": [
+    "irol"
+  ],
+  "NOSE": [
+    "otam"
+  ],
+  "NOTCH": [
+    "lisat"
+  ],
+  "NOURISH": [
+    "katthir"
+  ],
+  "NULL": [
+    "rod\u00EFm"
+  ],
+  "NUMBER": [
+    "nunok"
+  ],
+  "NURTURE": [
+    "umel"
+  ],
+  "NUT": [
+    "ishlum"
+  ],
+  "OAK": [
+    "kin"
+  ],
+  "OAR": [
+    "mebzuth"
+  ],
+  "OAT": [
+    "usib"
+  ],
+  "OBEISANCE": [
+    "nothok"
+  ],
+  "OBEY": [
+    "eddud"
+  ],
+  "OBLIVION": [
+    "nar"
+  ],
+  "OBSCENE": [
+    "thokdeg"
+  ],
+  "OBSCURE": [
+    "azmol"
+  ],
+  "OBSTACLE": [
+    "dolok"
+  ],
+  "OCCULT": [
+    "\u00E4srath"
+  ],
+  "OCEAN": [
+    "migrur"
+  ],
+  "OCHRE": [
+    "nokim"
+  ],
+  "ODOR": [
+    "kebon"
+  ],
+  "OIL": [
+    "uzol"
+  ],
+  "OLD": [
+    "egar"
+  ],
+  "OLIVE": [
+    "losush"
+  ],
+  "OMEN": [
+    "dakon"
+  ],
+  "OMINOUS": [
+    "zocuk"
+  ],
+  "ONE": [
+    "lod"
+  ],
+  "ONE_PREF": [
+    "nir"
+  ],
+  "ONION": [
+    "an\u00F6n"
+  ],
+  "ONSLAUGHT": [
+    "mothdast"
+  ],
+  "OOZE": [
+    "muved"
+  ],
+  "OPEN": [
+    "am"
+  ],
+  "ORACLE": [
+    "som"
+  ],
+  "ORANGE": [
+    "mostib"
+  ],
+  "ORB": [
+    "vab\u00F4k"
+  ],
+  "ORDER CONCEPT": [
+    "shed"
+  ],
+  "ORDER GROUP": [
+    "lotol"
+  ],
+  "ORGAN": [
+    "inash"
+  ],
+  "ORGANIZE": [
+    "steg\u00EBth"
+  ],
+  "OUTRAGE": [
+    "zar"
+  ],
+  "OVER": [
+    "\u00E1g"
+  ],
+  "OWL": [
+    "ritas"
+  ],
+  "OWN": [
+    "sanreb"
+  ],
+  "OWNERSHIP": [
+    "m\u00EFkstal"
+  ],
+  "OX": [
+    "udril"
+  ],
+  "PACK": [
+    "shig\u00F3s"
+  ],
+  "PADDLE": [
+    "iden"
+  ],
+  "PAD_NOUN": [
+    "d\u00E1thnes"
+  ],
+  "PAD_VERB": [
+    "\u00E2gez"
+  ],
+  "PAGE": [
+    "m\u00F6rul"
+  ],
+  "PAIN": [
+    "zulash"
+  ],
+  "PAINT": [
+    "logem"
+  ],
+  "PALACE": [
+    "kosoth"
+  ],
+  "PALE": [
+    "abal"
+  ],
+  "PALISADE": [
+    "kogsak"
+  ],
+  "PALM": [
+    "kulin"
+  ],
+  "PANT": [
+    "lerom"
+  ],
+  "PANTHER": [
+    "gatin"
+  ],
+  "PANTOMIME": [
+    "tetthush"
+  ],
+  "PANTS": [
+    "ul"
+  ],
+  "PAPER": [
+    "monom"
+  ],
+  "PARCH": [
+    "fash"
+  ],
+  "PARITY": [
+    "dugal"
+  ],
+  "PARTNER": [
+    "thimshur"
+  ],
+  "PASS MOUNTAIN": [
+    "\u00E9tol"
+  ],
+  "PASS VERB": [
+    "adas"
+  ],
+  "PASSAGE": [
+    "custith"
+  ],
+  "PASSION": [
+    "ishen"
+  ],
+  "PAST": [
+    "geth"
+  ],
+  "PASTIME": [
+    "gemsit"
+  ],
+  "PATH": [
+    "nimar"
+  ],
+  "PATTERN": [
+    "l\u00EElar"
+  ],
+  "PEACE": [
+    "bis\u00F3l"
+  ],
+  "PEACH": [
+    "ginok"
+  ],
+  "PEAK": [
+    "ilrom"
+  ],
+  "PEAR": [
+    "madush"
+  ],
+  "PEARL": [
+    "kovest"
+  ],
+  "PEBBLE": [
+    "ib"
+  ],
+  "PEEK": [
+    "thet"
+  ],
+  "PELT HIDE": [
+    "rodem"
+  ],
+  "PEPPER": [
+    "rumred"
+  ],
+  "PERFECT": [
+    "ator"
+  ],
+  "PERISH": [
+    "shithath"
+  ],
+  "PERIWINKLE": [
+    "thethrus"
+  ],
+  "PERMANENCY": [
+    "\u00ECrlom"
+  ],
+  "PERPLEX": [
+    "sherik"
+  ],
+  "PERSUADE": [
+    "eges"
+  ],
+  "PERSUADER": [
+    "fimshel"
+  ],
+  "PET": [
+    "bab"
+  ],
+  "PETAL": [
+    "rithul"
+  ],
+  "PHANTOM": [
+    "zimesh"
+  ],
+  "PHLEGM": [
+    "ugeth"
+  ],
+  "PHRASE": [
+    "sokan"
+  ],
+  "PICK": [
+    "tekkud"
+  ],
+  "PIG": [
+    "thuveg"
+  ],
+  "PILLAR": [
+    "obok"
+  ],
+  "PIMPLE": [
+    "rusest"
+  ],
+  "PINE": [
+    "umril"
+  ],
+  "PINK": [
+    "othbem"
+  ],
+  "PINNACLE": [
+    "al"
+  ],
+  "PIT": [
+    "gor"
+  ],
+  "PITCH": [
+    "damol"
+  ],
+  "PLAGUE": [
+    "elcur"
+  ],
+  "PLAIN": [
+    "zimkel"
+  ],
+  "PLAINADJ": [
+    "bimmon"
+  ],
+  "PLAIT": [
+    "mamot"
+  ],
+  "PLAN": [
+    "ison"
+  ],
+  "PLANE": [
+    "sil"
+  ],
+  "PLANET": [
+    "nitom"
+  ],
+  "PLANK": [
+    "shem"
+  ],
+  "PLANT": [
+    "erok"
+  ],
+  "PLANTER": [
+    "tok"
+  ],
+  "PLATE": [
+    "kugik"
+  ],
+  "PLAY FUN": [
+    "titthal"
+  ],
+  "PLAY PERFORM": [
+    "stistr\u00E4s"
+  ],
+  "PLEAT": [
+    "udist"
+  ],
+  "PLOT": [
+    "\u00EEm"
+  ],
+  "PLUM": [
+    "kagmel"
+  ],
+  "PLUNGE": [
+    "tathtat"
+  ],
+  "POCKET_NOUN": [
+    "r\u00E8t"
+  ],
+  "POCKET_VERB": [
+    "shoner"
+  ],
+  "POEM": [
+    "komut"
+  ],
+  "POET": [
+    "olnen"
+  ],
+  "POETRY": [
+    "dimshas"
+  ],
+  "POINT": [
+    "\u00E4kil"
+  ],
+  "POINTVERB": [
+    "idok"
+  ],
+  "POISON": [
+    "inrus"
+  ],
+  "POKE": [
+    "\u00EFtsas"
+  ],
+  "POLISH": [
+    "deleth"
+  ],
+  "PONDER": [
+    "zoz"
+  ],
+  "PONDEROUS": [
+    "umshad"
+  ],
+  "POOL": [
+    "agsal"
+  ],
+  "PORTAL": [
+    "mist\u00EAm"
+  ],
+  "PORTENT": [
+    "niral"
+  ],
+  "POST": [
+    "\u00EFteb"
+  ],
+  "POT": [
+    "tezad"
+  ],
+  "POWER": [
+    "midor"
+  ],
+  "PRACTICE": [
+    "mubun"
+  ],
+  "PRAIRIE": [
+    "l\u00E2ven"
+  ],
+  "PRAISE": [
+    "libad"
+  ],
+  "PRANK": [
+    "nilgin"
+  ],
+  "PREGNANT": [
+    "merir"
+  ],
+  "PRESENT": [
+    "udiz"
+  ],
+  "PRESTIGE": [
+    "gemur"
+  ],
+  "PRICE": [
+    "teshkad"
+  ],
+  "PRIDE": [
+    "nikuz"
+  ],
+  "PRIEST": [
+    "kamuk"
+  ],
+  "PRIM": [
+    "enal"
+  ],
+  "PRIME": [
+    "z\u00E8ler"
+  ],
+  "PRIMITIVE": [
+    "stibbom"
+  ],
+  "PRINCE": [
+    "kudust"
+  ],
+  "PRINCESS": [
+    "sastres"
+  ],
+  "PRINCIPLE": [
+    "kethil"
+  ],
+  "PRISON": [
+    "r\u00E4m"
+  ],
+  "PRISTINE": [
+    "maram"
+  ],
+  "PROBLEM": [
+    "bat\u00F4k"
+  ],
+  "PROFANE": [
+    "vildang"
+  ],
+  "PROLIFERATE": [
+    "gashcoz"
+  ],
+  "PROPHECY": [
+    "arkoth"
+  ],
+  "PROPHET": [
+    "lash\u00EBd"
+  ],
+  "PROWL": [
+    "kasith"
+  ],
+  "PUCE": [
+    "bidnoz"
+  ],
+  "PUKE": [
+    "ngathsesh"
+  ],
+  "PULL": [
+    "tashem"
+  ],
+  "PULLEY": [
+    "besmar"
+  ],
+  "PULP": [
+    "furgig"
+  ],
+  "PUMPKIN": [
+    "elbost"
+  ],
+  "PUNCH": [
+    "n\u00F4nub"
+  ],
+  "PUNGENT": [
+    "fongbez"
+  ],
+  "PUPPET": [
+    "ceshfot"
+  ],
+  "PURE": [
+    "enam"
+  ],
+  "PURGE": [
+    "thetust"
+  ],
+  "PURPLE": [
+    "rushrul"
+  ],
+  "PUS": [
+    "megob"
+  ],
+  "PUTRID": [
+    "uvir"
+  ],
+  "PUZZLE": [
+    "luslem"
+  ],
+  "QUAKE": [
+    "\u00F9shrir"
+  ],
+  "QUANDARY": [
+    "zukthist"
+  ],
+  "QUEEN": [
+    "esrel"
+  ],
+  "QUEST": [
+    "iseth"
+  ],
+  "QUICK": [
+    "buk\u00E8t"
+  ],
+  "QUIESCENT": [
+    "esar"
+  ],
+  "QUIET": [
+    "k\u00E0s"
+  ],
+  "QUILL": [
+    "nimak"
+  ],
+  "RABBIT": [
+    "lestus"
+  ],
+  "RABBLE": [
+    "fullut"
+  ],
+  "RACE_GROUP": [
+    "arkim"
+  ],
+  "RACE_VERB": [
+    "imsal"
+  ],
+  "RACK": [
+    "led"
+  ],
+  "RADIANCE": [
+    "at\u00EAsh"
+  ],
+  "RAG": [
+    "unib"
+  ],
+  "RAGE": [
+    "ron"
+  ],
+  "RAIN": [
+    "udar"
+  ],
+  "RAKE": [
+    "borush"
+  ],
+  "RAM": [
+    "detes"
+  ],
+  "RAMPAGE": [
+    "umoz"
+  ],
+  "RAMPART": [
+    "d\u00EEshmab"
+  ],
+  "RANCOR": [
+    "zokgen"
+  ],
+  "RANDOM": [
+    "serkib"
+  ],
+  "RANK": [
+    "ong"
+  ],
+  "RANSACK": [
+    "vudthar"
+  ],
+  "RAPID": [
+    "as\u00E0s"
+  ],
+  "RAPTOR": [
+    "razot"
+  ],
+  "RARE": [
+    "akrel"
+  ],
+  "RASP": [
+    "stigaz"
+  ],
+  "RAT": [
+    "atem"
+  ],
+  "RAUNCH": [
+    "ezuk"
+  ],
+  "RAVAGER": [
+    "vozbel"
+  ],
+  "RAVEN": [
+    "toltot"
+  ],
+  "RAW": [
+    "n\u00E4r"
+  ],
+  "RAY": [
+    "edim"
+  ],
+  "RAZOR": [
+    "stukos"
+  ],
+  "REALM": [
+    "ushul"
+  ],
+  "REASON": [
+    "ograd"
+  ],
+  "RECLUSE": [
+    "orstist"
+  ],
+  "RECREATION GAME": [
+    "kukon"
+  ],
+  "RED": [
+    "ang"
+  ],
+  "REGAL": [
+    "nuden"
+  ],
+  "REIGN": [
+    "ikud"
+  ],
+  "REIN": [
+    "memad"
+  ],
+  "RELEASE": [
+    "sob\u00ECr"
+  ],
+  "RELIC": [
+    "zaneg"
+  ],
+  "RELIEVE": [
+    "noram"
+  ],
+  "REMARKABLE": [
+    "bomel"
+  ],
+  "REND": [
+    "eshik"
+  ],
+  "RENOWN": [
+    "elbel"
+  ],
+  "REPUTATION": [
+    "ennol"
+  ],
+  "REQUIRE": [
+    "inem"
+  ],
+  "RESPECT": [
+    "rirn\u00F6l"
+  ],
+  "RESPONSIBLE": [
+    "stemel"
+  ],
+  "RETICENT": [
+    "z\u00ECzcun"
+  ],
+  "REVERE": [
+    "ebal"
+  ],
+  "REVOLTING": [
+    "emdush"
+  ],
+  "REWARD": [
+    "akir"
+  ],
+  "RHYME": [
+    "nanir"
+  ],
+  "RHYTHM": [
+    "irid"
+  ],
+  "RIDDLE": [
+    "nokgol"
+  ],
+  "RIDDLE HOLES": [
+    "dallith"
+  ],
+  "RIDER": [
+    "emgash"
+  ],
+  "RIFT": [
+    "vukrig"
+  ],
+  "RIGHT BETTER": [
+    "k\u00ECrar"
+  ],
+  "RIGHTEOUSNESS": [
+    "inush"
+  ],
+  "RIM": [
+    "tirist"
+  ],
+  "RING_OBJECT": [
+    "athel"
+  ],
+  "RING_SOUND": [
+    "seng"
+  ],
+  "RINSE": [
+    "ethab"
+  ],
+  "RIP": [
+    "osdin"
+  ],
+  "RIPE": [
+    "ethram"
+  ],
+  "RIPPER": [
+    "kamut"
+  ],
+  "RISE": [
+    "locun"
+  ],
+  "RISK": [
+    "neshast"
+  ],
+  "RITE": [
+    "selor"
+  ],
+  "RIVER": [
+    "ig\u00EBr"
+  ],
+  "ROAD": [
+    "tulon"
+  ],
+  "ROAR": [
+    "orrun"
+  ],
+  "ROAST": [
+    "ibesh"
+  ],
+  "ROBUST": [
+    "s\u00FBbil"
+  ],
+  "ROCK": [
+    "id"
+  ],
+  "ROGUE": [
+    "ast\u00E5s"
+  ],
+  "ROMANCE": [
+    "\u00E2bir"
+  ],
+  "ROOF": [
+    "cilob"
+  ],
+  "ROOM": [
+    "mosus"
+  ],
+  "ROOMY": [
+    "omthel"
+  ],
+  "ROOT": [
+    "odur"
+  ],
+  "ROOTVERB": [
+    "lul\u00E2r"
+  ],
+  "ROPE": [
+    "goden"
+  ],
+  "ROSE": [
+    "istbar"
+  ],
+  "ROT": [
+    "zodost"
+  ],
+  "ROUGH": [
+    "dumat"
+  ],
+  "ROUND": [
+    "lames"
+  ],
+  "ROUNDED": [
+    "lavath"
+  ],
+  "ROUT": [
+    "m\u00F6zir"
+  ],
+  "ROYAL": [
+    "relon"
+  ],
+  "RUB": [
+    "luzat"
+  ],
+  "RUIN": [
+    "notlith"
+  ],
+  "RUIN_V": [
+    "suth\u00E5n"
+  ],
+  "RULER": [
+    "ilid"
+  ],
+  "RUMOR": [
+    "tithleth"
+  ],
+  "RUN": [
+    "rur"
+  ],
+  "RUSH": [
+    "sashas"
+  ],
+  "RUSSET": [
+    "oten"
+  ],
+  "RUST": [
+    "kezar"
+  ],
+  "RUSTIC": [
+    "ik\u00F9l"
+  ],
+  "RUTHLESS": [
+    "bocash"
+  ],
+  "SABLE COLOR": [
+    "fenok"
+  ],
+  "SABRE": [
+    "ast"
+  ],
+  "SACK": [
+    "fath"
+  ],
+  "SACRIFICE": [
+    "etom"
+  ],
+  "SAD": [
+    "mukar"
+  ],
+  "SAFE": [
+    "ekast"
+  ],
+  "SAFFRON": [
+    "ushdish"
+  ],
+  "SAG": [
+    "zagug"
+  ],
+  "SAINT": [
+    "t\u00F6l\u00FAn"
+  ],
+  "SALT": [
+    "nabid"
+  ],
+  "SALUTE": [
+    "belar"
+  ],
+  "SALVE": [
+    "sibrek"
+  ],
+  "SANCTUARY": [
+    "rovol"
+  ],
+  "SANCTUM": [
+    "ottem"
+  ],
+  "SAND": [
+    "cugg\u00E1n"
+  ],
+  "SANDAL": [
+    "sosh"
+  ],
+  "SAP": [
+    "thining"
+  ],
+  "SATIN": [
+    "gas\u00ECs"
+  ],
+  "SATURNINE": [
+    "vathem"
+  ],
+  "SAVAGE": [
+    "noglesh"
+  ],
+  "SAVAGERY": [
+    "aroz"
+  ],
+  "SAVANT": [
+    "vumom"
+  ],
+  "SAVIOR": [
+    "t\u00E2mol"
+  ],
+  "SCAB": [
+    "nanul"
+  ],
+  "SCALD": [
+    "cud\u00EFst"
+  ],
+  "SCALE SKIN": [
+    "k\u00E5t\u00E2k"
+  ],
+  "SCALE VERB": [
+    "laz"
+  ],
+  "SCANDAL": [
+    "etvuth"
+  ],
+  "SCAR": [
+    "urr\u00EFth"
+  ],
+  "SCARCE": [
+    "kith"
+  ],
+  "SCARLET": [
+    "b\u00EAngeng"
+  ],
+  "SCENARIO": [
+    "rokel"
+  ],
+  "SCHOLAR": [
+    "mishthem"
+  ],
+  "SCINTILLATE": [
+    "girust"
+  ],
+  "SCOLD": [
+    "kik\u00EBs"
+  ],
+  "SCOOP": [
+    "gudas"
+  ],
+  "SCORCH": [
+    "othlest"
+  ],
+  "SCORN": [
+    "tokthat"
+  ],
+  "SCORPION": [
+    "askak"
+  ],
+  "SCOUR": [
+    "bubnus"
+  ],
+  "SCOURGE": [
+    "abshoth"
+  ],
+  "SCRAP": [
+    "gasir"
+  ],
+  "SCRAPE": [
+    "igath"
+  ],
+  "SCRATCH": [
+    "kes"
+  ],
+  "SCREAM": [
+    "ubas"
+  ],
+  "SCRIBE": [
+    "tathur"
+  ],
+  "SCRUB": [
+    "\u00EFthod"
+  ],
+  "SCUFFLE": [
+    "givel"
+  ],
+  "SCULPT": [
+    "aran"
+  ],
+  "SCUM": [
+    "angish"
+  ],
+  "SEA": [
+    "allas"
+  ],
+  "SEAL_ANIMAL": [
+    "gembish"
+  ],
+  "SEAL_ART": [
+    "urvad"
+  ],
+  "SEAM": [
+    "fel"
+  ],
+  "SEAR": [
+    "\u00FBthir"
+  ],
+  "SEARCH": [
+    "absam"
+  ],
+  "SEASON": [
+    "ingul"
+  ],
+  "SECRET": [
+    "nekut"
+  ],
+  "SECT": [
+    "evost"
+  ],
+  "SEDUCE": [
+    "genlath"
+  ],
+  "SEDUCER": [
+    "shulmik"
+  ],
+  "SEED": [
+    "lenod"
+  ],
+  "SEER": [
+    "abras"
+  ],
+  "SEIZE": [
+    "asol"
+  ],
+  "SELL": [
+    "esdor"
+  ],
+  "SENSE": [
+    "emal"
+  ],
+  "SENSUAL": [
+    "gathil"
+  ],
+  "SEPIA": [
+    "kitung"
+  ],
+  "SERPENT": [
+    "shethel"
+  ],
+  "SERVANT": [
+    "urn\u00FBt"
+  ],
+  "SEVER": [
+    "zursul"
+  ],
+  "SEVERE": [
+    "borlon"
+  ],
+  "SEWER": [
+    "othsal"
+  ],
+  "SHACK": [
+    "oshg\u00E2t"
+  ],
+  "SHADE": [
+    "ashm\u00F4n"
+  ],
+  "SHADOW": [
+    "shedim"
+  ],
+  "SHAFT": [
+    "arak"
+  ],
+  "SHAKE": [
+    "uthmik"
+  ],
+  "SHAME": [
+    "mostod"
+  ],
+  "SHANK": [
+    "tiz\u00F6t"
+  ],
+  "SHARK": [
+    "taran"
+  ],
+  "SHATTER": [
+    "baktus"
+  ],
+  "SHEAR": [
+    "bithit"
+  ],
+  "SHEEN": [
+    "otik"
+  ],
+  "SHELL": [
+    "kerl\u00EEg"
+  ],
+  "SHELTER": [
+    "l\u00EAned"
+  ],
+  "SHIELD": [
+    "sodel"
+  ],
+  "SHIMMER": [
+    "\u00F4nam"
+  ],
+  "SHIN": [
+    "langgud"
+  ],
+  "SHINGLE": [
+    "doshet"
+  ],
+  "SHIP": [
+    "zuglar"
+  ],
+  "SHOCK": [
+    "otung"
+  ],
+  "SHOOT": [
+    "keskal"
+  ],
+  "SHORE": [
+    "stibmer"
+  ],
+  "SHORT": [
+    "idrom"
+  ],
+  "SHOVE": [
+    "tomus"
+  ],
+  "SHOVEL": [
+    "dugan"
+  ],
+  "SHOW": [
+    "n\u00E5st"
+  ],
+  "SHOWER": [
+    "mesir"
+  ],
+  "SHRED": [
+    "uv\u00F3th"
+  ],
+  "SHRIEK": [
+    "m\u00EEvid"
+  ],
+  "SHRINE": [
+    "okun"
+  ],
+  "SHRIVEL": [
+    "istik"
+  ],
+  "SHUT": [
+    "\u00E9th"
+  ],
+  "SICK": [
+    "kaf\u00E2sh"
+  ],
+  "SICKNESS": [
+    "ngumrash"
+  ],
+  "SIDE": [
+    "adek"
+  ],
+  "SIEGE": [
+    "zokun"
+  ],
+  "SIENNA": [
+    "ecosh"
+  ],
+  "SILENCE": [
+    "eshom"
+  ],
+  "SILK": [
+    "nesteth"
+  ],
+  "SILKY": [
+    "thebil"
+  ],
+  "SILT": [
+    "ammesh"
+  ],
+  "SILVER": [
+    "ral"
+  ],
+  "SIMPLE": [
+    "guz"
+  ],
+  "SIN": [
+    "reksas"
+  ],
+  "SINEW": [
+    "gesis"
+  ],
+  "SING": [
+    "osal"
+  ],
+  "SINGE": [
+    "n\u00EAcik"
+  ],
+  "SINGLE": [
+    "elik"
+  ],
+  "SINK": [
+    "akmam"
+  ],
+  "SISTER": [
+    "anir"
+  ],
+  "SIT": [
+    "mosol"
+  ],
+  "SIZZLE": [
+    "umstiz"
+  ],
+  "SKEWER": [
+    "gecast"
+  ],
+  "SKIN": [
+    "salul"
+  ],
+  "SKIN VERB": [
+    "udesh"
+  ],
+  "SKINNY": [
+    "afen"
+  ],
+  "SKIRT_CLOTHING": [
+    "nabreth"
+  ],
+  "SKIRT_VERB": [
+    "dak\u00E4l"
+  ],
+  "SKULL": [
+    "nekol"
+  ],
+  "SKUNK": [
+    "rungak"
+  ],
+  "SKY": [
+    "anriz"
+  ],
+  "SLAP": [
+    "sezuk"
+  ],
+  "SLAUGHTER": [
+    "kosh"
+  ],
+  "SLAVE": [
+    "noth"
+  ],
+  "SLAYER": [
+    "tharnas"
+  ],
+  "SLEEVE": [
+    "saneb"
+  ],
+  "SLICK": [
+    "k\u00FAd"
+  ],
+  "SLIDE": [
+    "megid"
+  ],
+  "SLIM": [
+    "gansit"
+  ],
+  "SLIME": [
+    "b\u00E0goz"
+  ],
+  "SLING": [
+    "bim"
+  ],
+  "SLINK": [
+    "themthir"
+  ],
+  "SLIP": [
+    "f\u00F4ker"
+  ],
+  "SLIT": [
+    "sakil"
+  ],
+  "SLITHER": [
+    "tekmok"
+  ],
+  "SLIVER": [
+    "rasuk"
+  ],
+  "SLOP": [
+    "lir\u00E9r"
+  ],
+  "SLOSH": [
+    "\u00EElkeb"
+  ],
+  "SLOTH": [
+    "g\u00E4zot"
+  ],
+  "SLOW": [
+    "dezrem"
+  ],
+  "SLUDGE": [
+    "ukath"
+  ],
+  "SLUG": [
+    "toz\u00F6r"
+  ],
+  "SLY": [
+    "lanir"
+  ],
+  "SMALL": [
+    "est"
+  ],
+  "SMASH": [
+    "tob"
+  ],
+  "SMEAR": [
+    "duz"
+  ],
+  "SMILE": [
+    "kal"
+  ],
+  "SMITH": [
+    "esht\u00E2n"
+  ],
+  "SMOKE": [
+    "mezum"
+  ],
+  "SMOOTH": [
+    "umar"
+  ],
+  "SMOULDER": [
+    "zeber"
+  ],
+  "SNACK": [
+    "geles"
+  ],
+  "SNAIL": [
+    "nasod"
+  ],
+  "SNAKE": [
+    "therleth"
+  ],
+  "SNARL": [
+    "desis"
+  ],
+  "SNEAK": [
+    "ostuk"
+  ],
+  "SNEER": [
+    "tinan"
+  ],
+  "SNOT": [
+    "zekrim"
+  ],
+  "SNUGGLE": [
+    "magel"
+  ],
+  "SOAK": [
+    "adag"
+  ],
+  "SOAP": [
+    "uben"
+  ],
+  "SOAR": [
+    "um\u00E5m"
+  ],
+  "SOCIETY": [
+    "rethal"
+  ],
+  "SOCKET": [
+    "sesh"
+  ],
+  "SOIL": [
+    "adur"
+  ],
+  "SOLDIER": [
+    "ezar"
+  ],
+  "SOLITARY": [
+    "ngubmul"
+  ],
+  "SOMBER": [
+    "azuz"
+  ],
+  "SOOT": [
+    "bonun"
+  ],
+  "SOOTHE": [
+    "b\u00FBnem"
+  ],
+  "SORCERER": [
+    "litez"
+  ],
+  "SORCERY": [
+    "olthez"
+  ],
+  "SORROW": [
+    "egur"
+  ],
+  "SOUL": [
+    "unol"
+  ],
+  "SOUND": [
+    "vod"
+  ],
+  "SOUR": [
+    "zunek"
+  ],
+  "SOUTH": [
+    "lal"
+  ],
+  "SPARK": [
+    "\u00EEbmat"
+  ],
+  "SPARKLE": [
+    "kebul"
+  ],
+  "SPASM": [
+    "debish"
+  ],
+  "SPATTER": [
+    "isak"
+  ],
+  "SPAWN": [
+    "bushos"
+  ],
+  "SPEAK": [
+    "\u00E2m"
+  ],
+  "SPEAKER": [
+    "kutam"
+  ],
+  "SPEAR": [
+    "lokum"
+  ],
+  "SPECIAL": [
+    "ganad"
+  ],
+  "SPECK": [
+    "kik"
+  ],
+  "SPEECHLESS": [
+    "m\u00EFshak"
+  ],
+  "SPELL": [
+    "thortith"
+  ],
+  "SPICE": [
+    "om\u00E2t"
+  ],
+  "SPIDER": [
+    "sethal"
+  ],
+  "SPIDERY": [
+    "soshor"
+  ],
+  "SPIKE": [
+    "thocit"
+  ],
+  "SPIN": [
+    "esesh"
+  ],
+  "SPINE": [
+    "l\u00FBrit"
+  ],
+  "SPIRAL": [
+    "tishis"
+  ],
+  "SPIRE": [
+    "datur"
+  ],
+  "SPIRIT": [
+    "ubal"
+  ],
+  "SPIT": [
+    "\u00F2stob"
+  ],
+  "SPITE": [
+    "zakgol"
+  ],
+  "SPITTLE": [
+    "lashid"
+  ],
+  "SPLASH": [
+    "rulush"
+  ],
+  "SPLATTER": [
+    "kekim"
+  ],
+  "SPLIT": [
+    "ziksis"
+  ],
+  "SPOIL": [
+    "usur"
+  ],
+  "SPONGE": [
+    "adbok"
+  ],
+  "SPOON": [
+    "kob"
+  ],
+  "SPORT": [
+    "aned"
+  ],
+  "SPOT": [
+    "tangak"
+  ],
+  "SPRAY": [
+    "b\u00E2sen"
+  ],
+  "SPREAD": [
+    "koman"
+  ],
+  "SPRING_NOUN": [
+    "kigok"
+  ],
+  "SPRING_SEASON": [
+    "bekom"
+  ],
+  "SPRING_VERB": [
+    "magak"
+  ],
+  "SPRINKLE": [
+    "imesh"
+  ],
+  "SPRY": [
+    "v\u00EBs"
+  ],
+  "SPURN": [
+    "nob\u00F6t"
+  ],
+  "SPURT": [
+    "guthstak"
+  ],
+  "SPY": [
+    "estrith"
+  ],
+  "SQUARE": [
+    "vathsith"
+  ],
+  "SQUASH": [
+    "stuk\u00F3n"
+  ],
+  "SQUAT": [
+    "tumos"
+  ],
+  "SQUEEZE": [
+    "\u00EDkthag"
+  ],
+  "SQUID": [
+    "gongith"
+  ],
+  "SQUIRM": [
+    "dugud"
+  ],
+  "SQUIRT": [
+    "ul\u00E5b"
+  ],
+  "STAB": [
+    "zat"
+  ],
+  "STABLE UNCHANGING": [
+    "nulral"
+  ],
+  "STAFF": [
+    "nomal"
+  ],
+  "STAKE": [
+    "at\u00EEs"
+  ],
+  "STALE": [
+    "vuzded"
+  ],
+  "STALK": [
+    "oltud"
+  ],
+  "STAND": [
+    "savot"
+  ],
+  "STANDARD FLAG": [
+    "lorbam"
+  ],
+  "STAR": [
+    "v\u00EEr"
+  ],
+  "START": [
+    "kot"
+  ],
+  "STARVE": [
+    "sh\u00ECstsak"
+  ],
+  "STASIS": [
+    "shagog"
+  ],
+  "STEAL": [
+    "risid"
+  ],
+  "STEAM": [
+    "keng"
+  ],
+  "STEED": [
+    "dust\u00EEk"
+  ],
+  "STEEL": [
+    "deler"
+  ],
+  "STENCH": [
+    "aztong"
+  ],
+  "STEPPE": [
+    "dasnast"
+  ],
+  "STERN": [
+    "g\u00EFnon"
+  ],
+  "STICKY": [
+    "m\u00EBtin"
+  ],
+  "STICK_VERB": [
+    "ecut"
+  ],
+  "STICK_WOOD": [
+    "sholil"
+  ],
+  "STIGMA": [
+    "\u00FBlosh"
+  ],
+  "STILL UNMOVING": [
+    "isan"
+  ],
+  "STINK": [
+    "rithog"
+  ],
+  "STIR": [
+    "edan"
+  ],
+  "STOCKADE": [
+    "kikrost"
+  ],
+  "STOKE": [
+    "gusgash"
+  ],
+  "STONE": [
+    "lam"
+  ],
+  "STOP": [
+    "t\u00F4sed"
+  ],
+  "STORM": [
+    "togal"
+  ],
+  "STRANGE": [
+    "mot"
+  ],
+  "STRANGER": [
+    "rakas"
+  ],
+  "STRANGLE": [
+    "vuknud"
+  ],
+  "STRAP": [
+    "n\u00EEles"
+  ],
+  "STRAPPING_ADJ": [
+    "nefast"
+  ],
+  "STRATEGY": [
+    "arceth"
+  ],
+  "STRAW": [
+    "atith"
+  ],
+  "STRAY": [
+    "r\u00EAg"
+  ],
+  "STREAM": [
+    "meban"
+  ],
+  "STRENGTH": [
+    "emen"
+  ],
+  "STRETCH": [
+    "\u00E4kig"
+  ],
+  "STRIFE": [
+    "stin"
+  ],
+  "STRIKE": [
+    "abod"
+  ],
+  "STRING": [
+    "birut"
+  ],
+  "STROKE": [
+    "sat"
+  ],
+  "STUMP": [
+    "sh\u00F9rrat"
+  ],
+  "STUNT": [
+    "timad"
+  ],
+  "STUNTED": [
+    "ibas"
+  ],
+  "STUPID": [
+    "othob"
+  ],
+  "STUTTER": [
+    "f\u00FBbeg"
+  ],
+  "STYLE": [
+    "tunur"
+  ],
+  "SUBMERGE": [
+    "r\u00FBl"
+  ],
+  "SUBORDINATE": [
+    "idgag"
+  ],
+  "SUBTLE": [
+    "ozor"
+  ],
+  "SUCK": [
+    "eb"
+  ],
+  "SUFFERING": [
+    "omshit"
+  ],
+  "SUGAR": [
+    "ibes"
+  ],
+  "SUICIDE": [
+    "moshn\u00FAn"
+  ],
+  "SUITOR": [
+    "conngim"
+  ],
+  "SULLEN": [
+    "akuth"
+  ],
+  "SULLY": [
+    "oceg"
+  ],
+  "SUMMER": [
+    "isram"
+  ],
+  "SUMMIT": [
+    "kobel"
+  ],
+  "SUN": [
+    "ad"
+  ],
+  "SUNDER": [
+    "imgoz"
+  ],
+  "SUPERIOR": [
+    "kulsim"
+  ],
+  "SUPPER": [
+    "nis"
+  ],
+  "SURPRISE": [
+    "stot"
+  ],
+  "SWALLOW": [
+    "mozib"
+  ],
+  "SWAMP": [
+    "\u00F6gred"
+  ],
+  "SWAY": [
+    "\u00EAlbem"
+  ],
+  "SWEAT": [
+    "sined"
+  ],
+  "SWEEP": [
+    "ronush"
+  ],
+  "SWEET": [
+    "tec\u00E0k"
+  ],
+  "SWELTER": [
+    "k\u00EAshshak"
+  ],
+  "SWIFT": [
+    "subet"
+  ],
+  "SWIM": [
+    "urmim"
+  ],
+  "SWINE": [
+    "obash"
+  ],
+  "SWORD": [
+    "dastot"
+  ],
+  "SYMMETRY": [
+    "shazak"
+  ],
+  "SYRUP": [
+    "udib"
+  ],
+  "SYSTEM": [
+    "idith"
+  ],
+  "TACITURN": [
+    "dubmen"
+  ],
+  "TACTIC": [
+    "rimad"
+  ],
+  "TAIL": [
+    "kesh"
+  ],
+  "TAINT": [
+    "ongos"
+  ],
+  "TAKER": [
+    "enkos"
+  ],
+  "TALK": [
+    "masos"
+  ],
+  "TALL": [
+    "shukar"
+  ],
+  "TALON": [
+    "kidet"
+  ],
+  "TAME": [
+    "\u00F4sust"
+  ],
+  "TAN": [
+    "lasgan"
+  ],
+  "TANGLE": [
+    "lerteth"
+  ],
+  "TAPER": [
+    "timn\u00E4r"
+  ],
+  "TAR": [
+    "ob"
+  ],
+  "TARGET": [
+    "vetek"
+  ],
+  "TARNISH": [
+    "thils\u00E9g"
+  ],
+  "TATTOO": [
+    "zeg"
+  ],
+  "TAUPE": [
+    "k\u00E1n"
+  ],
+  "TAUT": [
+    "ugut"
+  ],
+  "TAX": [
+    "stettad"
+  ],
+  "TEACH": [
+    "amal"
+  ],
+  "TEAL": [
+    "nubam"
+  ],
+  "TEAR": [
+    "vim"
+  ],
+  "TELL": [
+    "asteb"
+  ],
+  "TEMPEST": [
+    "akmesh"
+  ],
+  "TEMPLE": [
+    "rath"
+  ],
+  "TEMPLE HEAD": [
+    "mor"
+  ],
+  "TEMPT": [
+    "becor"
+  ],
+  "TENACITY": [
+    "vudnis"
+  ],
+  "TENDER": [
+    "itt\u00E1s"
+  ],
+  "TENEBROUS": [
+    "golast"
+  ],
+  "TENTACLE": [
+    "it\u00EAg"
+  ],
+  "TEPID": [
+    "selen"
+  ],
+  "TERROR": [
+    "angzak"
+  ],
+  "TEST": [
+    "okil"
+  ],
+  "THEATER": [
+    "stinth\u00E4d"
+  ],
+  "THIEF": [
+    "gakit"
+  ],
+  "THIMBLE": [
+    "t\u00E5rem"
+  ],
+  "THIN": [
+    "elis"
+  ],
+  "THIRST": [
+    "r\u00EBcus"
+  ],
+  "THORN": [
+    "kurik"
+  ],
+  "THRALL": [
+    "unk\u00EDl"
+  ],
+  "THREAT": [
+    "gelut"
+  ],
+  "THREE": [
+    "mez"
+  ],
+  "THRIFT": [
+    "kabat"
+  ],
+  "THROAT": [
+    "erith"
+  ],
+  "THRONE": [
+    "kalur"
+  ],
+  "THROWER": [
+    "arros"
+  ],
+  "THUNDER": [
+    "amud"
+  ],
+  "TICK_ANIMAL": [
+    "nobgost"
+  ],
+  "TICK_CLOCK": [
+    "tan"
+  ],
+  "TIGHT": [
+    "l\u00EFd"
+  ],
+  "TILE": [
+    "bot"
+  ],
+  "TIME": [
+    "ashok"
+  ],
+  "TIN": [
+    "akrul"
+  ],
+  "TIP": [
+    "sheshek"
+  ],
+  "TIRE": [
+    "kan"
+  ],
+  "TOAD": [
+    "nod"
+  ],
+  "TOAST": [
+    "zasgim"
+  ],
+  "TOE": [
+    "nin"
+  ],
+  "TOMB": [
+    "rakust"
+  ],
+  "TOME": [
+    "melbil"
+  ],
+  "TONE": [
+    "bal"
+  ],
+  "TONGS": [
+    "olin"
+  ],
+  "TONGUE": [
+    "nol"
+  ],
+  "TOOL": [
+    "l\u00F2r"
+  ],
+  "TOOTH": [
+    "raz"
+  ],
+  "TOP": [
+    "tolis"
+  ],
+  "TORCH": [
+    "litast"
+  ],
+  "TORMENT": [
+    "dostust"
+  ],
+  "TORNADO": [
+    "shotom"
+  ],
+  "TORRID": [
+    "shaketh"
+  ],
+  "TORTURE": [
+    "mugshith"
+  ],
+  "TOUCH": [
+    "tat"
+  ],
+  "TOUCHY": [
+    "st\u00EFvut"
+  ],
+  "TOUR": [
+    "sigun"
+  ],
+  "TOURNAMENT": [
+    "m\u00EBlist"
+  ],
+  "TOWER": [
+    "urdim"
+  ],
+  "TOWN": [
+    "amost"
+  ],
+  "TRADE": [
+    "nish"
+  ],
+  "TRAGEDY": [
+    "mosos"
+  ],
+  "TRAIL": [
+    "k\u00E4l\u00E1n"
+  ],
+  "TRAMMEL": [
+    "r\u00ECthar"
+  ],
+  "TRAMPLE": [
+    "tangath"
+  ],
+  "TRANCE": [
+    "shelret"
+  ],
+  "TRAP": [
+    "\u00EFggal"
+  ],
+  "TRASH": [
+    "r\u00EBdreg"
+  ],
+  "TREASON": [
+    "ushal"
+  ],
+  "TREASURE": [
+    "idr\u00E4th"
+  ],
+  "TREASURY": [
+    "zutthan"
+  ],
+  "TREAT": [
+    "datlad"
+  ],
+  "TREATY": [
+    "ilral"
+  ],
+  "TREE": [
+    "d\u00E1k"
+  ],
+  "TRENCH": [
+    "borik"
+  ],
+  "TRESS": [
+    "st\u00EBlmith"
+  ],
+  "TRIAL": [
+    "nirk\u00FAn"
+  ],
+  "TRIANGLE": [
+    "biths\u00EAst"
+  ],
+  "TRIBE": [
+    "meden"
+  ],
+  "TRIBUTE": [
+    "amnek"
+  ],
+  "TRICK": [
+    "vafig"
+  ],
+  "TRICKERY": [
+    "t\u00EDzen"
+  ],
+  "TRIFLE": [
+    "bobet"
+  ],
+  "TRIM": [
+    "dizesh"
+  ],
+  "TRITE": [
+    "ebbus"
+  ],
+  "TROOPER": [
+    "\u00EAsik"
+  ],
+  "TROT": [
+    "esis"
+  ],
+  "TROUBLE": [
+    "kobem"
+  ],
+  "TROUGH": [
+    "osh\u00E9b"
+  ],
+  "TRUMPET": [
+    "s\u00E5kzul"
+  ],
+  "TRUSS": [
+    "tilesh"
+  ],
+  "TRUST": [
+    "gamil"
+  ],
+  "TRUSTWORTHY": [
+    "arin"
+  ],
+  "TRUTH": [
+    "atol"
+  ],
+  "TRUTHFUL": [
+    "\u00F6sir"
+  ],
+  "TUB": [
+    "buris"
+  ],
+  "TUBE": [
+    "ecem"
+  ],
+  "TUFT": [
+    "kasben"
+  ],
+  "TUG": [
+    "cavor"
+  ],
+  "TULIP": [
+    "shilr\u00E0r"
+  ],
+  "TUMBLE": [
+    "segun"
+  ],
+  "TUMMY": [
+    "bugud"
+  ],
+  "TUMOR": [
+    "messog"
+  ],
+  "TUNDRA": [
+    "kekath"
+  ],
+  "TUNNEL": [
+    "\u00F3d"
+  ],
+  "TURMOIL": [
+    "bukith"
+  ],
+  "TURQUOISE": [
+    "onget"
+  ],
+  "TUSK": [
+    "bufut"
+  ],
+  "TWEET": [
+    "nilim"
+  ],
+  "TWIG": [
+    "buzat"
+  ],
+  "TWILIGHT": [
+    "ingtak"
+  ],
+  "TWINE": [
+    "damor"
+  ],
+  "TWINKLE": [
+    "shetb\u00EAth"
+  ],
+  "TWIST": [
+    "gim"
+  ],
+  "TWO": [
+    "nob"
+  ],
+  "TYPHOON": [
+    "tishak"
+  ],
+  "UGLY": [
+    "eknar"
+  ],
+  "ULCER": [
+    "mengib"
+  ],
+  "ULTIMATE": [
+    "isrir"
+  ],
+  "ULTRA": [
+    "ish\u00EBm"
+  ],
+  "UMBER": [
+    "cegol"
+  ],
+  "UMBRA": [
+    "g\u00F3smer"
+  ],
+  "UN": [
+    "nas"
+  ],
+  "UNBRIDLED": [
+    "ticek"
+  ],
+  "UNCERTAIN": [
+    "itnet"
+  ],
+  "UNCLE": [
+    "mer"
+  ],
+  "UNCOMMON": [
+    "morus"
+  ],
+  "UNDER": [
+    "ar\u00F4l"
+  ],
+  "UNDIGNIFIED": [
+    "\u00EDster"
+  ],
+  "UNGODLY": [
+    "oth\u00E2sh"
+  ],
+  "UNHOLY": [
+    "k\u00F4kdath"
+  ],
+  "UNION": [
+    "semor"
+  ],
+  "UNIVERSE": [
+    "thur"
+  ],
+  "UNKEMPT": [
+    "distat"
+  ],
+  "UNNAMEABLE": [
+    "nan"
+  ],
+  "UNREMARKABLE": [
+    "orngim"
+  ],
+  "UNSEEN": [
+    "nirur"
+  ],
+  "UNSPEAKABLE": [
+    "ozur"
+  ],
+  "UNSWERVING": [
+    "sar"
+  ],
+  "UNTAMED": [
+    "um\u00E4m"
+  ],
+  "UNTHINKABLE": [
+    "zotthol"
+  ],
+  "UNTOWARD": [
+    "kiret"
+  ],
+  "UNTRUSTWORTHY": [
+    "gov\u00FBl"
+  ],
+  "UNWELCOME": [
+    "thisrid"
+  ],
+  "URGE": [
+    "bakust"
+  ],
+  "URN": [
+    "vucar"
+  ],
+  "USELESS": [
+    "kizab"
+  ],
+  "UTTER": [
+    "gutid"
+  ],
+  "VALE": [
+    "sebs\u00FAr"
+  ],
+  "VALLEY": [
+    "olil"
+  ],
+  "VANDAL": [
+    "tudrug"
+  ],
+  "VANISH": [
+    "oshot"
+  ],
+  "VAULT PLACE": [
+    "ubbul"
+  ],
+  "VAULT VERB": [
+    "ronstiz"
+  ],
+  "VEGETABLE": [
+    "s\u00EAgam"
+  ],
+  "VEGETATE": [
+    "amluth"
+  ],
+  "VEGETATION": [
+    "nozush"
+  ],
+  "VEIL": [
+    "bisek"
+  ],
+  "VELVET": [
+    "mirstal"
+  ],
+  "VENERATE": [
+    "lanzil"
+  ],
+  "VENOM": [
+    "zamoth"
+  ],
+  "VERMILION": [
+    "d\u00EBngstam"
+  ],
+  "VERMIN": [
+    "bomik"
+  ],
+  "VERSE": [
+    "t\u00F6gum"
+  ],
+  "VESSEL": [
+    "eral"
+  ],
+  "VESTIBULE": [
+    "edzul"
+  ],
+  "VICE": [
+    "sizir"
+  ],
+  "VICTIM": [
+    "nukad"
+  ],
+  "VIGOR": [
+    "okosh"
+  ],
+  "VILE": [
+    "munsog"
+  ],
+  "VILLAGE": [
+    "oklit"
+  ],
+  "VINE": [
+    "lemis"
+  ],
+  "VIOLATOR": [
+    "razmer"
+  ],
+  "VIOLENCE": [
+    "liruk"
+  ],
+  "VIOLET": [
+    "geget"
+  ],
+  "VIPER": [
+    "zenon"
+  ],
+  "VIRGIN": [
+    "vathez"
+  ],
+  "VIRGINITY": [
+    "fur\u00E0t"
+  ],
+  "VIRTUE": [
+    "\u00EEcum"
+  ],
+  "VISE": [
+    "tost"
+  ],
+  "VISION": [
+    "nitem"
+  ],
+  "VISIONARY": [
+    "vanel"
+  ],
+  "VOICE": [
+    "okol"
+  ],
+  "VOID": [
+    "torir"
+  ],
+  "VOLCANO": [
+    "stodir"
+  ],
+  "VOMIT": [
+    "\u00F4ggon"
+  ],
+  "VULGAR": [
+    "detgash"
+  ],
+  "VULTURE": [
+    "tikis"
+  ],
+  "WAD": [
+    "dogik"
+  ],
+  "WADDLE": [
+    "nursher"
+  ],
+  "WADE": [
+    "rodim"
+  ],
+  "WAIL": [
+    "unos"
+  ],
+  "WALK": [
+    "berdan"
+  ],
+  "WALL": [
+    "adil"
+  ],
+  "WALLOW": [
+    "ngesg\u00E4s"
+  ],
+  "WANDER": [
+    "legon"
+  ],
+  "WANE": [
+    "lelum"
+  ],
+  "WAR": [
+    "alnis"
+  ],
+  "WARD": [
+    "zal\u00ECs"
+  ],
+  "WARM": [
+    "sirab"
+  ],
+  "WARNING": [
+    "nis\u00FBn"
+  ],
+  "WARRIOR": [
+    "\u00EFkor"
+  ],
+  "WART": [
+    "omtug"
+  ],
+  "WASH": [
+    "stelid"
+  ],
+  "WASP": [
+    "tathtak"
+  ],
+  "WASTE": [
+    "lidod"
+  ],
+  "WATCH": [
+    "azin"
+  ],
+  "WATCHFUL": [
+    "isden"
+  ],
+  "WATER": [
+    "arel"
+  ],
+  "WAVE": [
+    "uker"
+  ],
+  "WAVY": [
+    "kussad"
+  ],
+  "WAX": [
+    "rithlut"
+  ],
+  "WAY": [
+    "deg"
+  ],
+  "WAYWARD": [
+    "onul"
+  ],
+  "WEAK": [
+    "othil"
+  ],
+  "WEALTH": [
+    "lim\u00E2r"
+  ],
+  "WEAR": [
+    "nilun"
+  ],
+  "WEASEL": [
+    "bamg\u00FBs"
+  ],
+  "WEATHER": [
+    "nugreth"
+  ],
+  "WEATHER VERB": [
+    "ed\u00F3l"
+  ],
+  "WEAVER": [
+    "adril"
+  ],
+  "WEB": [
+    "orshar"
+  ],
+  "WEED": [
+    "koshmot"
+  ],
+  "WEEP": [
+    "sibnir"
+  ],
+  "WEEVIL": [
+    "sostet"
+  ],
+  "WEIGHT": [
+    "\u00E2l"
+  ],
+  "WEIRD": [
+    "umgush"
+  ],
+  "WERE": [
+    "senel"
+  ],
+  "WEST": [
+    "sital"
+  ],
+  "WET": [
+    "kathil"
+  ],
+  "WHEAT": [
+    "kil"
+  ],
+  "WHEEL": [
+    "kol"
+  ],
+  "WHIM": [
+    "ken"
+  ],
+  "WHIP": [
+    "bomrek"
+  ],
+  "WHIRL": [
+    "estil"
+  ],
+  "WHISK": [
+    "boket"
+  ],
+  "WHISKER": [
+    "rikkir"
+  ],
+  "WHISKY": [
+    "atil"
+  ],
+  "WHISPER": [
+    "iklist"
+  ],
+  "WHITE": [
+    "volal"
+  ],
+  "WICKED": [
+    "lish"
+  ],
+  "WIELD": [
+    "shos"
+  ],
+  "WILD": [
+    "omrist"
+  ],
+  "WILL": [
+    "ud"
+  ],
+  "WILT": [
+    "oth\u00F4s"
+  ],
+  "WIND CLOCK": [
+    "oslan"
+  ],
+  "WIND STORM": [
+    "num"
+  ],
+  "WINE": [
+    "otin"
+  ],
+  "WING": [
+    "fesh"
+  ],
+  "WINNOW": [
+    "lak\u00E0l"
+  ],
+  "WINTER": [
+    "akath"
+  ],
+  "WIPE": [
+    "r\u00F4ber"
+  ],
+  "WIRE": [
+    "shorast"
+  ],
+  "WISDOM": [
+    "dos\u00EEm"
+  ],
+  "WISH": [
+    "nab\u00E5r"
+  ],
+  "WISP": [
+    "lim"
+  ],
+  "WITCH": [
+    "dam\u00EEd"
+  ],
+  "WITHER": [
+    "nentuk"
+  ],
+  "WOMAN": [
+    "aral"
+  ],
+  "WONDER_NOUN": [
+    "anur"
+  ],
+  "WONDER_VERB": [
+    "kulal"
+  ],
+  "WOOD": [
+    "lolum"
+  ],
+  "WORD": [
+    "il"
+  ],
+  "WORK": [
+    "ducim"
+  ],
+  "WORKER": [
+    "cubor"
+  ],
+  "WORLD": [
+    "oram"
+  ],
+  "WORM": [
+    "vesrul"
+  ],
+  "WORRY": [
+    "bumal"
+  ],
+  "WORSHIP": [
+    "soloz"
+  ],
+  "WORSHIPPER": [
+    "artum"
+  ],
+  "WORTHLESS": [
+    "cugshil"
+  ],
+  "WORTHY": [
+    "duthal"
+  ],
+  "WRACK": [
+    "shoshin"
+  ],
+  "WRAITH": [
+    "urosh"
+  ],
+  "WRATH": [
+    "akith"
+  ],
+  "WREATH": [
+    "stan\u00EFr"
+  ],
+  "WRETCH": [
+    "l\u00EArush"
+  ],
+  "WRING": [
+    "ulzest"
+  ],
+  "YARN": [
+    "eth\u00EDr"
+  ],
+  "YAWN": [
+    "\u00E5m"
+  ],
+  "YEAR": [
+    "\u00EEd"
+  ],
+  "YEARLING": [
+    "budam"
+  ],
+  "YELL": [
+    "taron"
+  ],
+  "YELLOW": [
+    "inol"
+  ],
+  "YORE": [
+    "okang"
+  ],
+  "YOUNG": [
+    "ging"
+  ],
+  "YOUTH": [
+    "rilem"
+  ],
+  "ZEAL": [
+    "kizest"
+  ],
+  "ZEALOT": [
+    "keb\u00F6sh"
+  ],
+  "ZENITH": [
+    "ibel"
+  ],
+  "ZEPHYR": [
+    "shesam"
+  ]
+}
